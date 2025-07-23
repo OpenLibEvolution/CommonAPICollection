@@ -144,7 +144,7 @@ common-api-collection/
 
 ## 支持与联系
 
-- 🐞 **问题报告**：[Issues]https://github.com/OpenLibEvolution/CommonAPICollection/issues)
+- 🐞 **问题报告**：[Issues](https://github.com/OpenLibEvolution/CommonAPICollection/issues)
 - 💬 **技术讨论**：[Discussions](https://github.com/OpenLibEvolution/CommonAPICollection/discussions)
 - 📧 **紧急联系**：openlibevolution@gmail.com
 
