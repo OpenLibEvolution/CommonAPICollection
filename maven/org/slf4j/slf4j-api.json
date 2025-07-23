@@ -1,0 +1,1293 @@
+{
+  "metadata": {
+    "group": "org.slf4j",
+    "artifact": "slf4j-api",
+    "ecosystem": "maven"
+  },
+  "apis": [
+    {
+      "class": "org.slf4j.ILoggerFactory",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getLogger",
+          "return_type": "org.slf4j.Logger",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.Logger",
+      "fields": [],
+      "methods": [
+        {
+          "name": "atDebug",
+          "return_type": "org.slf4j.spi.LoggingEventBuilder",
+          "parameters": []
+        },
+        {
+          "name": "atLevel",
+          "return_type": "org.slf4j.spi.LoggingEventBuilder",
+          "parameters": [
+            {
+              "type": "org.slf4j.event.Level",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "debug",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "error",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "getName",
+          "return_type": "java.lang.String",
+          "parameters": []
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "info",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "isDebugEnabled",
+          "return_type": "boolean",
+          "parameters": []
+        },
+        {
+          "name": "isDebugEnabled",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "isErrorEnabled",
+          "return_type": "boolean",
+          "parameters": []
+        },
+        {
+          "name": "isErrorEnabled",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "isInfoEnabled",
+          "return_type": "boolean",
+          "parameters": []
+        },
+        {
+          "name": "isInfoEnabled",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "isTraceEnabled",
+          "return_type": "boolean",
+          "parameters": []
+        },
+        {
+          "name": "isTraceEnabled",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "isWarnEnabled",
+          "return_type": "boolean",
+          "parameters": []
+        },
+        {
+          "name": "isWarnEnabled",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "trace",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "warn",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.LoggerFactory",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getILoggerFactory",
+          "return_type": "org.slf4j.ILoggerFactory",
+          "parameters": []
+        },
+        {
+          "name": "getLogger",
+          "return_type": "org.slf4j.Logger",
+          "parameters": [
+            {
+              "type": "java.lang.Class",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "getLogger",
+          "return_type": "org.slf4j.Logger",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.MDC",
+      "fields": [],
+      "methods": [
+        {
+          "name": "clear",
+          "return_type": "void",
+          "parameters": []
+        },
+        {
+          "name": "get",
+          "return_type": "java.lang.String",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "getCopyOfContextMap",
+          "return_type": "java.util.Map",
+          "parameters": []
+        },
+        {
+          "name": "getMDCAdapter",
+          "return_type": "org.slf4j.spi.MDCAdapter",
+          "parameters": []
+        },
+        {
+          "name": "put",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "putCloseable",
+          "return_type": "org.slf4j.MDC$MDCCloseable",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "remove",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "setContextMap",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.util.Map",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.Marker",
+      "fields": [],
+      "methods": [
+        {
+          "name": "contains",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "contains",
+          "return_type": "boolean",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "getName",
+          "return_type": "java.lang.String",
+          "parameters": []
+        },
+        {
+          "name": "hasReferences",
+          "return_type": "boolean",
+          "parameters": []
+        },
+        {
+          "name": "iterator",
+          "return_type": "java.util.Iterator",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.MarkerFactory",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getMarker",
+          "return_type": "org.slf4j.Marker",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.event.Level",
+      "fields": [
+        {
+          "name": "DEBUG",
+          "type": "org.slf4j.event.Level"
+        },
+        {
+          "name": "ERROR",
+          "type": "org.slf4j.event.Level"
+        },
+        {
+          "name": "INFO",
+          "type": "org.slf4j.event.Level"
+        },
+        {
+          "name": "TRACE",
+          "type": "org.slf4j.event.Level"
+        },
+        {
+          "name": "WARN",
+          "type": "org.slf4j.event.Level"
+        }
+      ],
+      "methods": [
+        {
+          "name": "toInt",
+          "return_type": "int",
+          "parameters": []
+        },
+        {
+          "name": "toString",
+          "return_type": "java.lang.String",
+          "parameters": []
+        },
+        {
+          "name": "valueOf",
+          "return_type": "org.slf4j.event.Level",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "values",
+          "return_type": "org.slf4j.event.Level[]",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.helpers.FormattingTuple",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getArgArray",
+          "return_type": "java.lang.Object[]",
+          "parameters": []
+        },
+        {
+          "name": "getMessage",
+          "return_type": "java.lang.String",
+          "parameters": []
+        },
+        {
+          "name": "getThrowable",
+          "return_type": "java.lang.Throwable",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.helpers.MessageFormatter",
+      "fields": [],
+      "methods": [
+        {
+          "name": "arrayFormat",
+          "return_type": "org.slf4j.helpers.FormattingTuple",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "arrayFormat",
+          "return_type": "org.slf4j.helpers.FormattingTuple",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "format",
+          "return_type": "org.slf4j.helpers.FormattingTuple",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "format",
+          "return_type": "org.slf4j.helpers.FormattingTuple",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.helpers.NOPLogger",
+      "fields": [
+        {
+          "name": "NOP_LOGGER",
+          "type": "org.slf4j.helpers.NOPLogger"
+        }
+      ],
+      "methods": []
+    },
+    {
+      "class": "org.slf4j.spi.LocationAwareLogger",
+      "fields": [],
+      "methods": [
+        {
+          "name": "log",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "org.slf4j.Marker",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "int",
+              "name": null
+            },
+            {
+              "type": "java.lang.String",
+              "name": null
+            },
+            {
+              "type": "java.lang.Object[]",
+              "name": null
+            },
+            {
+              "type": "java.lang.Throwable",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "org.slf4j.spi.MDCAdapter",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getCopyOfContextMap",
+          "return_type": "java.util.Map",
+          "parameters": []
+        }
+      ]
+    }
+  ]
+}
