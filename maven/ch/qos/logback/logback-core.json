@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "group": "ch.qos.logback",
+    "artifact": "logback-core",
+    "ecosystem": "maven"
+  },
+  "apis": [
+    {
+      "class": "ch.qos.logback.core.Appender",
+      "fields": [],
+      "methods": [
+        {
+          "name": "doAppend",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "getName",
+          "return_type": "java.lang.String",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.AppenderBase",
+      "fields": [],
+      "methods": [
+        {
+          "name": "start",
+          "return_type": "void",
+          "parameters": []
+        },
+        {
+          "name": "stop",
+          "return_type": "void",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.ConsoleAppender",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getTarget",
+          "return_type": "java.lang.String",
+          "parameters": []
+        },
+        {
+          "name": "setTarget",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "start",
+          "return_type": "void",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.CoreConstants",
+      "fields": [
+        {
+          "name": "LINE_SEPARATOR",
+          "type": "java.lang.String"
+        }
+      ],
+      "methods": []
+    },
+    {
+      "class": "ch.qos.logback.core.FileAppender",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getFile",
+          "return_type": "java.lang.String",
+          "parameters": []
+        },
+        {
+          "name": "setFile",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "setPrudent",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "boolean",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "start",
+          "return_type": "void",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.Layout",
+      "fields": [],
+      "methods": [
+        {
+          "name": "doLayout",
+          "return_type": "java.lang.String",
+          "parameters": [
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.OutputStreamAppender",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getEncoder",
+          "return_type": "ch.qos.logback.core.encoder.Encoder",
+          "parameters": []
+        },
+        {
+          "name": "setEncoder",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.encoder.Encoder",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.UnsynchronizedAppenderBase",
+      "fields": [],
+      "methods": [
+        {
+          "name": "start",
+          "return_type": "void",
+          "parameters": []
+        },
+        {
+          "name": "stop",
+          "return_type": "void",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.encoder.Encoder",
+      "fields": [],
+      "methods": [
+        {
+          "name": "encode",
+          "return_type": "byte[]",
+          "parameters": [
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getLayout",
+          "return_type": "ch.qos.logback.core.Layout",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.pattern.Converter",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getNext",
+          "return_type": "ch.qos.logback.core.pattern.Converter",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.rolling.FixedWindowRollingPolicy",
+      "fields": [],
+      "methods": [
+        {
+          "name": "setMaxIndex",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "int",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "start",
+          "return_type": "void",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.rolling.RollingFileAppender",
+      "fields": [],
+      "methods": [
+        {
+          "name": "setFile",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "setRollingPolicy",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.rolling.RollingPolicy",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "setTriggeringPolicy",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.rolling.TriggeringPolicy",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "start",
+          "return_type": "void",
+          "parameters": []
+        },
+        {
+          "name": "stop",
+          "return_type": "void",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP",
+      "fields": [],
+      "methods": [
+        {
+          "name": "setMaxFileSize",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.util.FileSize",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "setMaxFileSize",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "start",
+          "return_type": "void",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy",
+      "fields": [],
+      "methods": [
+        {
+          "name": "setMaxFileSize",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.util.FileSize",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy",
+      "fields": [],
+      "methods": [
+        {
+          "name": "start",
+          "return_type": "void",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.rolling.TimeBasedRollingPolicy",
+      "fields": [],
+      "methods": [
+        {
+          "name": "setMaxHistory",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "int",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "setTimeBasedFileNamingAndTriggeringPolicy",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.rolling.TimeBasedFileNamingAndTriggeringPolicy",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "start",
+          "return_type": "void",
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.spi.AppenderAttachableImpl",
+      "fields": [],
+      "methods": [
+        {
+          "name": "addAppender",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.Appender",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "appendLoopOnAppenders",
+          "return_type": "int",
+          "parameters": [
+            {
+              "type": "java.lang.Object",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.spi.FilterReply",
+      "fields": [
+        {
+          "name": "ACCEPT",
+          "type": "ch.qos.logback.core.spi.FilterReply"
+        },
+        {
+          "name": "DENY",
+          "type": "ch.qos.logback.core.spi.FilterReply"
+        },
+        {
+          "name": "NEUTRAL",
+          "type": "ch.qos.logback.core.spi.FilterReply"
+        }
+      ],
+      "methods": []
+    },
+    {
+      "class": "ch.qos.logback.core.util.FileSize",
+      "fields": [],
+      "methods": [
+        {
+          "name": "valueOf",
+          "return_type": "ch.qos.logback.core.util.FileSize",
+          "parameters": [
+            {
+              "type": "java.lang.String",
+              "name": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ch.qos.logback.core.util.StatusPrinter",
+      "fields": [],
+      "methods": [
+        {
+          "name": "print",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.Context",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "printIfErrorsOccured",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.Context",
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "printInCaseOfErrorsOrWarnings",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "ch.qos.logback.core.Context",
+              "name": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
