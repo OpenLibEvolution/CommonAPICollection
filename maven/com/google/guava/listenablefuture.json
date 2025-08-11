@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "group": "com.google.guava",
+    "artifact": "listenablefuture",
+    "ecosystem": "maven"
+  },
+  "apis": [
+    {
+      "class": "com.google.common.util.concurrent.ListenableFuture",
+      "fields": [],
+      "methods": [
+        {
+          "name": "addListener",
+          "return_type": "void",
+          "parameters": [
+            {
+              "type": "java.lang.Runnable",
+              "name": null
+            },
+            {
+              "type": "java.util.concurrent.Executor",
+              "name": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
