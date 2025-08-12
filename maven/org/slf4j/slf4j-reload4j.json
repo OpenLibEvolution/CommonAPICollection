@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "group": "org.slf4j",
+    "artifact": "slf4j-reload4j",
+    "ecosystem": "maven"
+  },
+  "apis": [
+    {
+      "class": "org.slf4j.impl.StaticLoggerBinder",
+      "fields": [],
+      "methods": [
+        {
+          "name": "getLoggerFactory",
+          "return_type": "org.slf4j.ILoggerFactory",
+          "parameters": []
+        },
+        {
+          "name": "getLoggerFactoryClassStr",
+          "return_type": "java.lang.String",
+          "parameters": []
+        },
+        {
+          "name": "getSingleton",
+          "return_type": "org.slf4j.impl.StaticLoggerBinder",
+          "parameters": []
+        }
+      ]
+    }
+  ]
+}
