@@ -248,15 +248,18 @@
           "fields": [
             {
               "name": "ISO_8859_1",
-              "type": "java.nio.charset.Charset"
+              "type": "java.nio.charset.Charset",
+              "is_deprecated": true
             },
             {
               "name": "US_ASCII",
-              "type": "java.nio.charset.Charset"
+              "type": "java.nio.charset.Charset",
+              "is_deprecated": true
             },
             {
               "name": "UTF_8",
-              "type": "java.nio.charset.Charset"
+              "type": "java.nio.charset.Charset",
+              "is_deprecated": true
             }
           ],
           "methods": []
@@ -2271,7 +2274,8 @@
                   "type": "java.lang.Throwable",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "propagateIfInstanceOf",
@@ -2285,7 +2289,8 @@
                   "type": "java.lang.Class",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "propagateIfPossible",
@@ -2295,7 +2300,8 @@
                   "type": "java.lang.Throwable",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "propagateIfPossible",
@@ -2309,7 +2315,8 @@
                   "type": "java.lang.Class",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "throwIfInstanceOf",
@@ -8332,7 +8339,8 @@
                   "type": "java.util.Map",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "newTreeSet",
@@ -8732,7 +8740,8 @@
                   "type": "java.lang.Object",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             }
           ]
         },
@@ -9243,7 +9252,8 @@
             {
               "name": "md5",
               "return_type": "com.google.common.hash.HashFunction",
-              "parameters": []
+              "parameters": [],
+              "is_deprecated": true
             },
             {
               "name": "murmur3_128",
@@ -9253,12 +9263,14 @@
             {
               "name": "murmur3_32",
               "return_type": "com.google.common.hash.HashFunction",
-              "parameters": []
+              "parameters": [],
+              "is_deprecated": true
             },
             {
               "name": "sha1",
               "return_type": "com.google.common.hash.HashFunction",
-              "parameters": []
+              "parameters": [],
+              "is_deprecated": true
             },
             {
               "name": "sha256",
@@ -9930,7 +9942,8 @@
             {
               "name": "createTempDir",
               "return_type": "java.io.File",
-              "parameters": []
+              "parameters": [],
+              "is_deprecated": true
             },
             {
               "name": "getFileExtension",
@@ -9964,7 +9977,8 @@
                   "type": "com.google.common.hash.HashFunction",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "move",
@@ -10020,7 +10034,8 @@
                   "type": "java.nio.charset.Charset",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "readLines",
@@ -10058,7 +10073,8 @@
                   "type": "java.nio.charset.Charset",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "touch",
@@ -10086,7 +10102,8 @@
                   "type": "java.nio.charset.Charset",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "write",

@@ -5908,7 +5908,8 @@
             {
               "name": "softValues",
               "return_type": "com.google.common.collect.MapMaker",
-              "parameters": []
+              "parameters": [],
+              "is_deprecated": true
             },
             {
               "name": "weakKeys",
@@ -8456,7 +8457,8 @@
                   "type": "byte[]",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "nullOutputStream",
@@ -8616,7 +8618,8 @@
                   "type": "java.nio.charset.Charset",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "readLines",
@@ -8636,7 +8639,8 @@
                   "type": "com.google.common.io.InputSupplier",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "toString",
@@ -8825,7 +8829,8 @@
                   "type": "java.io.File",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "copy",
@@ -8931,7 +8936,8 @@
                   "type": "java.io.File",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "newOutputStreamSupplier",
@@ -8941,7 +8947,8 @@
                   "type": "java.io.File",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "newReader",
@@ -9174,7 +9181,8 @@
                   "type": "java.net.URL",
                   "name": null
                 }
-              ]
+              ],
+              "is_deprecated": true
             },
             {
               "name": "readLines",

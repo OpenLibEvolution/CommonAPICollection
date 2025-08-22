@@ -566,7 +566,8 @@
             {
               "name": "getContext",
               "return_type": "java.util.Hashtable",
-              "parameters": []
+              "parameters": [],
+              "is_deprecated": true
             },
             {
               "name": "put",
@@ -669,11 +670,13 @@
           "fields": [
             {
               "name": "DEBUG",
-              "type": "org.apache.log4j.Priority"
+              "type": "org.apache.log4j.Priority",
+              "is_deprecated": true
             },
             {
               "name": "ERROR",
-              "type": "org.apache.log4j.Priority"
+              "type": "org.apache.log4j.Priority",
+              "is_deprecated": true
             },
             {
               "name": "FATAL",
@@ -681,11 +684,13 @@
             },
             {
               "name": "INFO",
-              "type": "org.apache.log4j.Priority"
+              "type": "org.apache.log4j.Priority",
+              "is_deprecated": true
             },
             {
               "name": "WARN",
-              "type": "org.apache.log4j.Priority"
+              "type": "org.apache.log4j.Priority",
+              "is_deprecated": true
             }
           ],
           "methods": [
