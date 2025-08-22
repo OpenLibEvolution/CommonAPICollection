@@ -4,26 +4,10 @@
     "artifact": "listenablefuture",
     "ecosystem": "maven"
   },
-  "apis": [
+  "versions": [
     {
-      "class": "com.google.common.util.concurrent.ListenableFuture",
-      "fields": [],
-      "methods": [
-        {
-          "name": "addListener",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Runnable",
-              "name": null
-            },
-            {
-              "type": "java.util.concurrent.Executor",
-              "name": null
-            }
-          ]
-        }
-      ]
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "apis": []
     }
   ]
 }

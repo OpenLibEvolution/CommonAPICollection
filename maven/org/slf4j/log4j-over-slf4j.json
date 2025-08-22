@@ -4,915 +4,910 @@
     "artifact": "log4j-over-slf4j",
     "ecosystem": "maven"
   },
-  "apis": [
+  "versions": [
     {
-      "class": "org.apache.log4j.Appender",
-      "fields": [],
-      "methods": [
+      "version": "2.0.17",
+      "apis": [
         {
-          "name": "close",
-          "return_type": "void",
-          "parameters": []
-        },
-        {
-          "name": "doAppend",
-          "return_type": "void",
-          "parameters": [
+          "class": "org.apache.log4j.Appender",
+          "fields": [],
+          "methods": [
             {
-              "type": "org.apache.log4j.spi.LoggingEvent",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "getLayout",
-          "return_type": "org.apache.log4j.Layout",
-          "parameters": []
-        },
-        {
-          "name": "getName",
-          "return_type": "java.lang.String",
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.AppenderSkeleton",
-      "fields": [],
-      "methods": [
-        {
-          "name": "activateOptions",
-          "return_type": "void",
-          "parameters": []
-        },
-        {
-          "name": "setLayout",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "org.apache.log4j.Layout",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "setName",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.BasicConfigurator",
-      "fields": [],
-      "methods": [
-        {
-          "name": "configure",
-          "return_type": "void",
-          "parameters": []
-        },
-        {
-          "name": "configure",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "org.apache.log4j.Appender",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.Category",
-      "fields": [],
-      "methods": [
-        {
-          "name": "addAppender",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "org.apache.log4j.Appender",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "debug",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "debug",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
+              "name": "close",
+              "return_type": "void",
+              "parameters": []
             },
             {
-              "type": "java.lang.Throwable",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "error",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "error",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
+              "name": "doAppend",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.log4j.spi.LoggingEvent",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "java.lang.Throwable",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "fatal",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "fatal",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
+              "name": "getLayout",
+              "return_type": "org.apache.log4j.Layout",
+              "parameters": []
             },
             {
-              "type": "java.lang.Throwable",
-              "name": null
+              "name": "getName",
+              "return_type": "java.lang.String",
+              "parameters": []
             }
           ]
         },
         {
-          "name": "getAllAppenders",
-          "return_type": "java.util.Enumeration",
-          "parameters": []
-        },
-        {
-          "name": "getInstance",
-          "return_type": "org.apache.log4j.Category",
-          "parameters": [
+          "class": "org.apache.log4j.AppenderSkeleton",
+          "fields": [],
+          "methods": [
             {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "getLevel",
-          "return_type": "org.apache.log4j.Level",
-          "parameters": []
-        },
-        {
-          "name": "getName",
-          "return_type": "java.lang.String",
-          "parameters": []
-        },
-        {
-          "name": "getParent",
-          "return_type": "org.apache.log4j.Category",
-          "parameters": []
-        },
-        {
-          "name": "info",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "info",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
+              "name": "activateOptions",
+              "return_type": "void",
+              "parameters": []
             },
             {
-              "type": "java.lang.Throwable",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "isDebugEnabled",
-          "return_type": "boolean",
-          "parameters": []
-        },
-        {
-          "name": "isEnabledFor",
-          "return_type": "boolean",
-          "parameters": [
-            {
-              "type": "org.apache.log4j.Level",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "isEnabledFor",
-          "return_type": "boolean",
-          "parameters": [
-            {
-              "type": "org.apache.log4j.Priority",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "isInfoEnabled",
-          "return_type": "boolean",
-          "parameters": []
-        },
-        {
-          "name": "log",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
+              "name": "setLayout",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.log4j.Layout",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "org.apache.log4j.Priority",
-              "name": null
+              "name": "setName",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.BasicConfigurator",
+          "fields": [],
+          "methods": [
+            {
+              "name": "configure",
+              "return_type": "void",
+              "parameters": []
             },
             {
-              "type": "java.lang.Object",
-              "name": null
+              "name": "configure",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.log4j.Appender",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.Category",
+          "fields": [],
+          "methods": [
+            {
+              "name": "addAppender",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.log4j.Appender",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "java.lang.Throwable",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "log",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "org.apache.log4j.Priority",
-              "name": null
+              "name": "debug",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "java.lang.Object",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "log",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "org.apache.log4j.Priority",
-              "name": null
+              "name": "debug",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "java.lang.Object",
-              "name": null
+              "name": "error",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "java.lang.Throwable",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "setAdditivity",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "boolean",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "setLevel",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "org.apache.log4j.Level",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "warn",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "warn",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
+              "name": "error",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "java.lang.Throwable",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.Level",
-      "fields": [
-        {
-          "name": "ALL",
-          "type": "org.apache.log4j.Level"
-        },
-        {
-          "name": "DEBUG",
-          "type": "org.apache.log4j.Level"
-        },
-        {
-          "name": "ERROR",
-          "type": "org.apache.log4j.Level"
-        },
-        {
-          "name": "FATAL",
-          "type": "org.apache.log4j.Level"
-        },
-        {
-          "name": "INFO",
-          "type": "org.apache.log4j.Level"
-        },
-        {
-          "name": "OFF",
-          "type": "org.apache.log4j.Level"
-        },
-        {
-          "name": "TRACE",
-          "type": "org.apache.log4j.Level"
-        },
-        {
-          "name": "WARN",
-          "type": "org.apache.log4j.Level"
-        }
-      ],
-      "methods": [
-        {
-          "name": "toLevel",
-          "return_type": "org.apache.log4j.Level",
-          "parameters": [
-            {
-              "type": "int",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "toLevel",
-          "return_type": "org.apache.log4j.Level",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "toLevel",
-          "return_type": "org.apache.log4j.Level",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
+              "name": "fatal",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "org.apache.log4j.Level",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.LogManager",
-      "fields": [],
-      "methods": [
-        {
-          "name": "getCurrentLoggers",
-          "return_type": "java.util.Enumeration",
-          "parameters": []
-        },
-        {
-          "name": "getLogger",
-          "return_type": "org.apache.log4j.Logger",
-          "parameters": [
-            {
-              "type": "java.lang.Class",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "getLogger",
-          "return_type": "org.apache.log4j.Logger",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "getLogger",
-          "return_type": "org.apache.log4j.Logger",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
+              "name": "fatal",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "org.apache.log4j.spi.LoggerFactory",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "getRootLogger",
-          "return_type": "org.apache.log4j.Logger",
-          "parameters": []
-        },
-        {
-          "name": "resetConfiguration",
-          "return_type": "void",
-          "parameters": []
-        },
-        {
-          "name": "shutdown",
-          "return_type": "void",
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.Logger",
-      "fields": [],
-      "methods": [
-        {
-          "name": "getLogger",
-          "return_type": "org.apache.log4j.Logger",
-          "parameters": [
-            {
-              "type": "java.lang.Class",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "getLogger",
-          "return_type": "org.apache.log4j.Logger",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "getRootLogger",
-          "return_type": "org.apache.log4j.Logger",
-          "parameters": []
-        },
-        {
-          "name": "isTraceEnabled",
-          "return_type": "boolean",
-          "parameters": []
-        },
-        {
-          "name": "trace",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "trace",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.Object",
-              "name": null
+              "name": "getAllAppenders",
+              "return_type": "java.util.Enumeration",
+              "parameters": []
             },
             {
-              "type": "java.lang.Throwable",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.MDC",
-      "fields": [],
-      "methods": [
-        {
-          "name": "clear",
-          "return_type": "void",
-          "parameters": []
-        },
-        {
-          "name": "get",
-          "return_type": "java.lang.Object",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "getContext",
-          "return_type": "java.util.Hashtable",
-          "parameters": []
-        },
-        {
-          "name": "put",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
+              "name": "getInstance",
+              "return_type": "org.apache.log4j.Category",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "java.lang.Object",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "put",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
+              "name": "getLevel",
+              "return_type": "org.apache.log4j.Level",
+              "parameters": []
             },
             {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "remove",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.NDC",
-      "fields": [],
-      "methods": [
-        {
-          "name": "clear",
-          "return_type": "void",
-          "parameters": []
-        },
-        {
-          "name": "get",
-          "return_type": "java.lang.String",
-          "parameters": []
-        },
-        {
-          "name": "getDepth",
-          "return_type": "int",
-          "parameters": []
-        },
-        {
-          "name": "peek",
-          "return_type": "java.lang.String",
-          "parameters": []
-        },
-        {
-          "name": "pop",
-          "return_type": "java.lang.String",
-          "parameters": []
-        },
-        {
-          "name": "push",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "remove",
-          "return_type": "void",
-          "parameters": []
-        },
-        {
-          "name": "setMaxDepth",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "int",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.Priority",
-      "fields": [
-        {
-          "name": "DEBUG",
-          "type": "org.apache.log4j.Priority"
-        },
-        {
-          "name": "ERROR",
-          "type": "org.apache.log4j.Priority"
-        },
-        {
-          "name": "FATAL",
-          "type": "org.apache.log4j.Priority"
-        },
-        {
-          "name": "INFO",
-          "type": "org.apache.log4j.Priority"
-        },
-        {
-          "name": "WARN",
-          "type": "org.apache.log4j.Priority"
-        }
-      ],
-      "methods": [
-        {
-          "name": "isGreaterOrEqual",
-          "return_type": "boolean",
-          "parameters": [
-            {
-              "type": "org.apache.log4j.Priority",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.PropertyConfigurator",
-      "fields": [],
-      "methods": [
-        {
-          "name": "configure",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "configure",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.net.URL",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "configure",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.util.Properties",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "configureAndWatch",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
+              "name": "getName",
+              "return_type": "java.lang.String",
+              "parameters": []
             },
             {
-              "type": "long",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.RollingFileAppender",
-      "fields": [],
-      "methods": [
-        {
-          "name": "setMaxBackupIndex",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "int",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "setMaximumFileSize",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "long",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.helpers.LogLog",
-      "fields": [],
-      "methods": [
-        {
-          "name": "debug",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "error",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "error",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
+              "name": "getParent",
+              "return_type": "org.apache.log4j.Category",
+              "parameters": []
             },
             {
-              "type": "java.lang.Throwable",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "warn",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.spi.LoggerRepository",
-      "fields": [],
-      "methods": [
-        {
-          "name": "getCurrentLoggers",
-          "return_type": "java.util.Enumeration",
-          "parameters": []
-        },
-        {
-          "name": "getRootLogger",
-          "return_type": "org.apache.log4j.Logger",
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "class": "org.apache.log4j.xml.DOMConfigurator",
-      "fields": [],
-      "methods": [
-        {
-          "name": "configure",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "configure",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.net.URL",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "configureAndWatch",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
+              "name": "info",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
             },
             {
-              "type": "long",
-              "name": null
+              "name": "info",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "isDebugEnabled",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "isEnabledFor",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "org.apache.log4j.Priority",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "isInfoEnabled",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "log",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.log4j.Priority",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "log",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.log4j.Priority",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "log",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.log4j.Priority",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setAdditivity",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setLevel",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.log4j.Level",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "warn",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "warn",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
             }
           ]
         },
         {
-          "name": "doConfigure",
-          "return_type": "void",
-          "parameters": [
+          "class": "org.apache.log4j.Level",
+          "fields": [
             {
-              "type": "java.io.InputStream",
-              "name": null
+              "name": "ALL",
+              "type": "org.apache.log4j.Level"
             },
             {
-              "type": "org.apache.log4j.spi.LoggerRepository",
-              "name": null
+              "name": "DEBUG",
+              "type": "org.apache.log4j.Level"
+            },
+            {
+              "name": "ERROR",
+              "type": "org.apache.log4j.Level"
+            },
+            {
+              "name": "FATAL",
+              "type": "org.apache.log4j.Level"
+            },
+            {
+              "name": "INFO",
+              "type": "org.apache.log4j.Level"
+            },
+            {
+              "name": "OFF",
+              "type": "org.apache.log4j.Level"
+            },
+            {
+              "name": "TRACE",
+              "type": "org.apache.log4j.Level"
+            },
+            {
+              "name": "WARN",
+              "type": "org.apache.log4j.Level"
+            }
+          ],
+          "methods": [
+            {
+              "name": "toLevel",
+              "return_type": "org.apache.log4j.Level",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toLevel",
+              "return_type": "org.apache.log4j.Level",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toLevel",
+              "return_type": "org.apache.log4j.Level",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.log4j.Level",
+                  "name": null
+                }
+              ]
             }
           ]
         },
         {
-          "name": "doConfigure",
-          "return_type": "void",
-          "parameters": [
+          "class": "org.apache.log4j.LogManager",
+          "fields": [],
+          "methods": [
             {
-              "type": "java.net.URL",
-              "name": null
+              "name": "getCurrentLoggers",
+              "return_type": "java.util.Enumeration",
+              "parameters": []
             },
             {
-              "type": "org.apache.log4j.spi.LoggerRepository",
-              "name": null
+              "name": "getLogger",
+              "return_type": "org.apache.log4j.Logger",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getLogger",
+              "return_type": "org.apache.log4j.Logger",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getLogger",
+              "return_type": "org.apache.log4j.Logger",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.log4j.spi.LoggerFactory",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getRootLogger",
+              "return_type": "org.apache.log4j.Logger",
+              "parameters": []
+            },
+            {
+              "name": "resetConfiguration",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "shutdown",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.Logger",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getLogger",
+              "return_type": "org.apache.log4j.Logger",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getLogger",
+              "return_type": "org.apache.log4j.Logger",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getRootLogger",
+              "return_type": "org.apache.log4j.Logger",
+              "parameters": []
+            },
+            {
+              "name": "isTraceEnabled",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "trace",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "trace",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.MDC",
+          "fields": [],
+          "methods": [
+            {
+              "name": "clear",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "get",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getContext",
+              "return_type": "java.util.Hashtable",
+              "parameters": []
+            },
+            {
+              "name": "put",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "put",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "remove",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.NDC",
+          "fields": [],
+          "methods": [
+            {
+              "name": "clear",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "get",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getDepth",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "peek",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "pop",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "push",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "remove",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "setMaxDepth",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.Priority",
+          "fields": [
+            {
+              "name": "DEBUG",
+              "type": "org.apache.log4j.Priority"
+            },
+            {
+              "name": "ERROR",
+              "type": "org.apache.log4j.Priority"
+            },
+            {
+              "name": "FATAL",
+              "type": "org.apache.log4j.Priority"
+            },
+            {
+              "name": "INFO",
+              "type": "org.apache.log4j.Priority"
+            },
+            {
+              "name": "WARN",
+              "type": "org.apache.log4j.Priority"
+            }
+          ],
+          "methods": [
+            {
+              "name": "isGreaterOrEqual",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "org.apache.log4j.Priority",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.PropertyConfigurator",
+          "fields": [],
+          "methods": [
+            {
+              "name": "configure",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "configure",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.net.URL",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "configure",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.util.Properties",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "configureAndWatch",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.RollingFileAppender",
+          "fields": [],
+          "methods": [
+            {
+              "name": "setMaxBackupIndex",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setMaximumFileSize",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.helpers.LogLog",
+          "fields": [],
+          "methods": [
+            {
+              "name": "debug",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "error",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "error",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "warn",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.spi.LoggerRepository",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getCurrentLoggers",
+              "return_type": "java.util.Enumeration",
+              "parameters": []
+            },
+            {
+              "name": "getRootLogger",
+              "return_type": "org.apache.log4j.Logger",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.log4j.xml.DOMConfigurator",
+          "fields": [],
+          "methods": [
+            {
+              "name": "configure",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "configure",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.net.URL",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "configureAndWatch",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "doConfigure",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.log4j.spi.LoggerRepository",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "doConfigure",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.net.URL",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.log4j.spi.LoggerRepository",
+                  "name": null
+                }
+              ]
             }
           ]
         }
