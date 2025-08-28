@@ -680,7 +680,8 @@
             },
             {
               "name": "FATAL",
-              "type": "org.apache.log4j.Priority"
+              "type": "org.apache.log4j.Priority",
+              "is_deprecated": true
             },
             {
               "name": "INFO",
