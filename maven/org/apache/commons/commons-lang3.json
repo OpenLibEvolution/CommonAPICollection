@@ -1112,7 +1112,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "is_deprecated": true
         },
         {
           "class": "org.apache.commons.lang3.StringUtils",
@@ -4230,7 +4231,8 @@
               "return_type": "java.lang.String",
               "parameters": []
             }
-          ]
+          ],
+          "is_deprecated": true
         },
         {
           "class": "org.apache.commons.lang3.text.StrSubstitutor",
@@ -4260,7 +4262,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "is_deprecated": true
         },
         {
           "class": "org.apache.commons.lang3.text.WordUtils",
@@ -4308,7 +4311,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "is_deprecated": true
         },
         {
           "class": "org.apache.commons.lang3.text.translate.CharSequenceTranslator",
@@ -4324,7 +4328,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "is_deprecated": true
         },
         {
           "class": "org.apache.commons.lang3.text.translate.EntityArrays",
@@ -4340,7 +4345,8 @@
               "return_type": "java.lang.String[][]",
               "parameters": []
             }
-          ]
+          ],
+          "is_deprecated": true
         },
         {
           "class": "org.apache.commons.lang3.time.DateFormatUtils",

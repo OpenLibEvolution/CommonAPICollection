@@ -438,7 +438,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "is_deprecated": true
         }
       ]
     }

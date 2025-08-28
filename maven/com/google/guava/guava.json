@@ -8743,7 +8743,8 @@
               ],
               "is_deprecated": true
             }
-          ]
+          ],
+          "is_deprecated": true
         },
         {
           "class": "com.google.common.escape.Escaper",
