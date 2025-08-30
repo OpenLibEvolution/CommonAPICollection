@@ -1,0 +1,600 @@
+{
+  "metadata": {
+    "group": "ch.qos.logback",
+    "artifact": "logback-classic",
+    "ecosystem": "maven"
+  },
+  "versions": [
+    {
+      "version": "1.5.18",
+      "apis": [
+        {
+          "class": "ch.qos.logback.classic.Level",
+          "fields": [
+            {
+              "name": "ALL",
+              "type": "ch.qos.logback.classic.Level",
+              "is_deprecated": true
+            },
+            {
+              "name": "DEBUG",
+              "type": "ch.qos.logback.classic.Level"
+            },
+            {
+              "name": "ERROR",
+              "type": "ch.qos.logback.classic.Level"
+            },
+            {
+              "name": "INFO",
+              "type": "ch.qos.logback.classic.Level"
+            },
+            {
+              "name": "OFF",
+              "type": "ch.qos.logback.classic.Level"
+            },
+            {
+              "name": "TRACE",
+              "type": "ch.qos.logback.classic.Level"
+            },
+            {
+              "name": "WARN",
+              "type": "ch.qos.logback.classic.Level"
+            },
+            {
+              "name": "levelInt",
+              "type": "int"
+            },
+            {
+              "name": "levelStr",
+              "type": "java.lang.String"
+            }
+          ],
+          "methods": [
+            {
+              "name": "isGreaterOrEqual",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "ch.qos.logback.classic.Level",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toInt",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "toLevel",
+              "return_type": "ch.qos.logback.classic.Level",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toLevel",
+              "return_type": "ch.qos.logback.classic.Level",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "ch.qos.logback.classic.Level",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "valueOf",
+              "return_type": "ch.qos.logback.classic.Level",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.Logger",
+          "fields": [],
+          "methods": [
+            {
+              "name": "addAppender",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "ch.qos.logback.core.Appender",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "debug",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "detachAndStopAllAppenders",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "detachAppender",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "ch.qos.logback.core.Appender",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "error",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "error",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getAppender",
+              "return_type": "ch.qos.logback.core.Appender",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getEffectiveLevel",
+              "return_type": "ch.qos.logback.classic.Level",
+              "parameters": []
+            },
+            {
+              "name": "getLevel",
+              "return_type": "ch.qos.logback.classic.Level",
+              "parameters": []
+            },
+            {
+              "name": "getLoggerContext",
+              "return_type": "ch.qos.logback.classic.LoggerContext",
+              "parameters": []
+            },
+            {
+              "name": "getName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "info",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "info",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "info",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "isAdditive",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "iteratorForAppenders",
+              "return_type": "java.util.Iterator",
+              "parameters": []
+            },
+            {
+              "name": "setAdditive",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setLevel",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "ch.qos.logback.classic.Level",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "warn",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.LoggerContext",
+          "fields": [],
+          "methods": [
+            {
+              "name": "addListener",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "ch.qos.logback.classic.spi.LoggerContextListener",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addTurboFilter",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "ch.qos.logback.classic.turbo.TurboFilter",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "exists",
+              "return_type": "ch.qos.logback.classic.Logger",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getLogger",
+              "return_type": "ch.qos.logback.classic.Logger",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getLogger",
+              "return_type": "ch.qos.logback.classic.Logger",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getLoggerList",
+              "return_type": "java.util.List",
+              "parameters": []
+            },
+            {
+              "name": "getTurboFilterList",
+              "return_type": "ch.qos.logback.classic.spi.TurboFilterList",
+              "parameters": []
+            },
+            {
+              "name": "putProperty",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "reset",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "stop",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.PatternLayout",
+          "fields": [],
+          "methods": [
+            {
+              "name": "doLayout",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "ch.qos.logback.classic.spi.ILoggingEvent",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "start",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.filter.ThresholdFilter",
+          "fields": [],
+          "methods": [
+            {
+              "name": "setLevel",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "start",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.jul.LevelChangePropagator",
+          "fields": [],
+          "methods": [
+            {
+              "name": "setResetJUL",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.spi.ILoggingEvent",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getArgumentArray",
+              "return_type": "java.lang.Object[]",
+              "parameters": []
+            },
+            {
+              "name": "getCallerData",
+              "return_type": "java.lang.StackTraceElement[]",
+              "parameters": []
+            },
+            {
+              "name": "getFormattedMessage",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getLevel",
+              "return_type": "ch.qos.logback.classic.Level",
+              "parameters": []
+            },
+            {
+              "name": "getLoggerContextVO",
+              "return_type": "ch.qos.logback.classic.spi.LoggerContextVO",
+              "parameters": []
+            },
+            {
+              "name": "getLoggerName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getMDCPropertyMap",
+              "return_type": "java.util.Map",
+              "parameters": []
+            },
+            {
+              "name": "getMarker",
+              "return_type": "org.slf4j.Marker",
+              "parameters": [],
+              "is_deprecated": true
+            },
+            {
+              "name": "getMessage",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getThreadName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getThrowableProxy",
+              "return_type": "ch.qos.logback.classic.spi.IThrowableProxy",
+              "parameters": []
+            },
+            {
+              "name": "getTimeStamp",
+              "return_type": "long",
+              "parameters": []
+            },
+            {
+              "name": "hasCallerData",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "prepareForDeferredProcessing",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.spi.IThrowableProxy",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getCause",
+              "return_type": "ch.qos.logback.classic.spi.IThrowableProxy",
+              "parameters": []
+            },
+            {
+              "name": "getClassName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getCommonFrames",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "getMessage",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getStackTraceElementProxyArray",
+              "return_type": "ch.qos.logback.classic.spi.StackTraceElementProxy[]",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.spi.LoggerContextVO",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getPropertyMap",
+              "return_type": "java.util.Map",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.spi.LoggingEvent",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getFormattedMessage",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getLevel",
+              "return_type": "ch.qos.logback.classic.Level",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.spi.StackTraceElementProxy",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getStackTraceElement",
+              "return_type": "java.lang.StackTraceElement",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "ch.qos.logback.classic.spi.ThrowableProxy",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getThrowable",
+              "return_type": "java.lang.Throwable",
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
