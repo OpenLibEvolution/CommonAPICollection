@@ -1,0 +1,2031 @@
+{
+  "metadata": {
+    "group": "commons-io",
+    "artifact": "commons-io",
+    "ecosystem": "maven"
+  },
+  "versions": [
+    {
+      "version": "2.20.0",
+      "apis": [
+        {
+          "class": "org.apache.commons.io.ByteOrderMark",
+          "fields": [
+            {
+              "name": "UTF_16BE",
+              "type": "org.apache.commons.io.ByteOrderMark"
+            },
+            {
+              "name": "UTF_16LE",
+              "type": "org.apache.commons.io.ByteOrderMark"
+            },
+            {
+              "name": "UTF_32BE",
+              "type": "org.apache.commons.io.ByteOrderMark"
+            },
+            {
+              "name": "UTF_32LE",
+              "type": "org.apache.commons.io.ByteOrderMark"
+            },
+            {
+              "name": "UTF_8",
+              "type": "org.apache.commons.io.ByteOrderMark"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.commons.io.Charsets",
+          "fields": [
+            {
+              "name": "UTF_8",
+              "type": "java.nio.charset.Charset",
+              "is_deprecated": true
+            }
+          ],
+          "methods": [
+            {
+              "name": "toCharset",
+              "return_type": "java.nio.charset.Charset",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.FileUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "byteCountToDisplaySize",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "cleanDirectory",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "contentEquals",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyDirectory",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyDirectory",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.FileFilter",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyDirectoryToDirectory",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyFile",
+              "return_type": "long",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyFileToDirectory",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyInputStreamToFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyToFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyURLToFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.net.URL",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "deleteDirectory",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "deleteQuietly",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "directoryContains",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "forceDelete",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "forceDeleteOnExit",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "forceMkdir",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "forceMkdirParent",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getFile",
+              "return_type": "java.io.File",
+              "parameters": [
+                {
+                  "type": "java.lang.String[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getTempDirectory",
+              "return_type": "java.io.File",
+              "parameters": []
+            },
+            {
+              "name": "getTempDirectoryPath",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getUserDirectoryPath",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "isSymlink",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "iterateFiles",
+              "return_type": "java.util.Iterator",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.commons.io.filefilter.IOFileFilter",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.commons.io.filefilter.IOFileFilter",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "iterateFiles",
+              "return_type": "java.util.Iterator",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String[]",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "lineIterator",
+              "return_type": "org.apache.commons.io.LineIterator",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "lineIterator",
+              "return_type": "org.apache.commons.io.LineIterator",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "listFiles",
+              "return_type": "java.util.Collection",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.commons.io.filefilter.IOFileFilter",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.commons.io.filefilter.IOFileFilter",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "listFiles",
+              "return_type": "java.util.Collection",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String[]",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "moveDirectory",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "moveFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "moveFileToDirectory",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "openInputStream",
+              "return_type": "java.io.FileInputStream",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "openOutputStream",
+              "return_type": "java.io.FileOutputStream",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readFileToByteArray",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readFileToString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "readFileToString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readFileToString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readLines",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "readLines",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readLines",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sizeOf",
+              "return_type": "long",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sizeOfDirectory",
+              "return_type": "long",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toFile",
+              "return_type": "java.io.File",
+              "parameters": [
+                {
+                  "type": "java.net.URL",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "touch",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.CharSequence",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.CharSequence",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.CharSequence",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "writeByteArrayToFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "writeLines",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.util.Collection",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "writeStringToFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "writeStringToFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "writeStringToFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "writeStringToFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "writeStringToFile",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.File",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.FilenameUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "concat",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getBaseName",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getExtension",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getFullPath",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getFullPathNoEndSeparator",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getName",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getPath",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "isExtension",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "normalize",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "normalize",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "normalizeNoEndSeparator",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "removeExtension",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "separatorsToUnix",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "wildcardMatch",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.HexDump",
+          "fields": [],
+          "methods": [
+            {
+              "name": "dump",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                },
+                {
+                  "type": "long",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.IOCase",
+          "fields": [
+            {
+              "name": "INSENSITIVE",
+              "type": "org.apache.commons.io.IOCase"
+            },
+            {
+              "name": "SENSITIVE",
+              "type": "org.apache.commons.io.IOCase"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.commons.io.IOUtils",
+          "fields": [
+            {
+              "name": "LINE_SEPARATOR",
+              "type": "java.lang.String",
+              "is_deprecated": true
+            }
+          ],
+          "methods": [
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.Closeable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.Closeable",
+                  "name": null
+                },
+                {
+                  "type": "java.util.function.Consumer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.Writer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.net.ServerSocket",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.net.Socket",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copy",
+              "return_type": "int",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copy",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.io.Writer",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "copy",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.io.Writer",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copy",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.io.Writer",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copy",
+              "return_type": "int",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                },
+                {
+                  "type": "java.io.Writer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyLarge",
+              "return_type": "long",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyLarge",
+              "return_type": "long",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                },
+                {
+                  "type": "long",
+                  "name": null
+                },
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "copyLarge",
+              "return_type": "long",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                },
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "lineIterator",
+              "return_type": "org.apache.commons.io.LineIterator",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "lineIterator",
+              "return_type": "org.apache.commons.io.LineIterator",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "read",
+              "return_type": "int",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "read",
+              "return_type": "int",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "byte[]",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readFully",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readFully",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "byte[]",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readLines",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "readLines",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readLines",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "readLines",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "resourceToString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "skip",
+              "return_type": "long",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "skipFully",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toByteArray",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toByteArray",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "toByteArray",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.net.URL",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toInputStream",
+              "return_type": "java.io.InputStream",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "toInputStream",
+              "return_type": "java.io.InputStream",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toInputStream",
+              "return_type": "java.io.InputStream",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.net.URL",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.net.URL",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.io.Writer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                },
+                {
+                  "type": "java.io.OutputStream",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.LineIterator",
+          "fields": [],
+          "methods": [
+            {
+              "name": "close",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.commons.io.LineIterator",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "hasNext",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "next",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "nextLine",
+              "return_type": "java.lang.String",
+              "parameters": [],
+              "is_deprecated": true
+            },
+            {
+              "name": "remove",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.filefilter.DirectoryFileFilter",
+          "fields": [
+            {
+              "name": "DIRECTORY",
+              "type": "org.apache.commons.io.filefilter.IOFileFilter"
+            },
+            {
+              "name": "INSTANCE",
+              "type": "org.apache.commons.io.filefilter.IOFileFilter"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.commons.io.filefilter.FileFilterUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "and",
+              "return_type": "org.apache.commons.io.filefilter.IOFileFilter",
+              "parameters": [
+                {
+                  "type": "org.apache.commons.io.filefilter.IOFileFilter[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "directoryFileFilter",
+              "return_type": "org.apache.commons.io.filefilter.IOFileFilter",
+              "parameters": []
+            },
+            {
+              "name": "fileFileFilter",
+              "return_type": "org.apache.commons.io.filefilter.IOFileFilter",
+              "parameters": []
+            },
+            {
+              "name": "nameFileFilter",
+              "return_type": "org.apache.commons.io.filefilter.IOFileFilter",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "notFileFilter",
+              "return_type": "org.apache.commons.io.filefilter.IOFileFilter",
+              "parameters": [
+                {
+                  "type": "org.apache.commons.io.filefilter.IOFileFilter",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "prefixFileFilter",
+              "return_type": "org.apache.commons.io.filefilter.IOFileFilter",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.filefilter.HiddenFileFilter",
+          "fields": [
+            {
+              "name": "VISIBLE",
+              "type": "org.apache.commons.io.filefilter.IOFileFilter"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.commons.io.filefilter.TrueFileFilter",
+          "fields": [
+            {
+              "name": "INSTANCE",
+              "type": "org.apache.commons.io.filefilter.IOFileFilter"
+            },
+            {
+              "name": "TRUE",
+              "type": "org.apache.commons.io.filefilter.IOFileFilter"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.commons.io.input.CloseShieldInputStream",
+          "fields": [],
+          "methods": [
+            {
+              "name": "wrap",
+              "return_type": "org.apache.commons.io.input.CloseShieldInputStream",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.input.CountingInputStream",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getByteCount",
+              "return_type": "long",
+              "parameters": []
+            },
+            {
+              "name": "getCount",
+              "return_type": "int",
+              "parameters": [],
+              "is_deprecated": true
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream",
+          "fields": [],
+          "methods": [
+            {
+              "name": "builder",
+              "return_type": "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream$Builder",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream$Builder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "get",
+              "return_type": "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream",
+              "parameters": []
+            },
+            {
+              "name": "setByteArray",
+              "return_type": "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream$Builder",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.monitor.FileAlterationMonitor",
+          "fields": [],
+          "methods": [
+            {
+              "name": "start",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.monitor.FileAlterationObserver",
+          "fields": [],
+          "methods": [
+            {
+              "name": "addListener",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.commons.io.monitor.FileAlterationListener",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.output.ByteArrayOutputStream",
+          "fields": [],
+          "methods": [
+            {
+              "name": "toByteArray",
+              "return_type": "byte[]",
+              "parameters": []
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.output.CountingOutputStream",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getByteCount",
+              "return_type": "long",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.output.DeferredFileOutputStream",
+          "fields": [],
+          "methods": [
+            {
+              "name": "close",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "getData",
+              "return_type": "byte[]",
+              "parameters": []
+            },
+            {
+              "name": "getFile",
+              "return_type": "java.io.File",
+              "parameters": []
+            },
+            {
+              "name": "isInMemory",
+              "return_type": "boolean",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.output.NullOutputStream",
+          "fields": [
+            {
+              "name": "NULL_OUTPUT_STREAM",
+              "type": "org.apache.commons.io.output.NullOutputStream",
+              "is_deprecated": true
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream",
+          "fields": [],
+          "methods": [
+            {
+              "name": "builder",
+              "return_type": "org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream$Builder",
+              "parameters": []
+            },
+            {
+              "name": "size",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "toByteArray",
+              "return_type": "byte[]",
+              "parameters": []
+            },
+            {
+              "name": "toInputStream",
+              "return_type": "java.io.InputStream",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream$Builder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "get",
+              "return_type": "org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream",
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
