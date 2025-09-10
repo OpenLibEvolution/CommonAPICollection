@@ -43,34 +43,39 @@ common-api-collection/
     "artifactId": "slf4j-api",
     "ecosystem": "maven"
   },
-  "apis": [
+  "versions": [
     {
-      "class": "org.apache.logging.log4j.Logger",
-      "fields": [
+      "version": "2.0.17",
+      "apis": [
         {
-          "name": "DEBUG",
-          "type": "org.slf4j.event.Level"
-        },
-        {
-          "name": "ERROR",
-          "type": "org.slf4j.event.Level"
-        }
-      ],
-      "methods": [
-        {
-          "name": "valueOf",
-          "return_type": "org.slf4j.event.Level",
-          "parameters": [
+          "class": "org.apache.logging.log4j.Logger",
+          "fields": [
             {
-              "type": "java.lang.String",
-              "name": null
+              "name": "DEBUG",
+              "type": "org.slf4j.event.Level"
+            },
+            {
+              "name": "ERROR",
+              "type": "org.slf4j.event.Level"
+            }
+          ],
+          "methods": [
+            {
+              "name": "valueOf",
+              "return_type": "org.slf4j.event.Level",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "values",
+              "return_type": "org.slf4j.event.Level[]",
+              "parameters": []
             }
           ]
-        },
-        {
-          "name": "values",
-          "return_type": "org.slf4j.event.Level[]",
-          "parameters": []
         }
       ]
     }

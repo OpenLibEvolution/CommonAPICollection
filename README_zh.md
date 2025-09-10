@@ -43,61 +43,40 @@ common-api-collection/
     "artifactId": "slf4j-api",
     "ecosystem": "maven"
   },
-  "apis": [
+  "versions": [
     {
-      "class": "org.apache.logging.log4j.Logger",
-      "fields": [
+      "version": "2.0.17",
+      "apis": [
         {
-          "name": "DEBUG",
-          "type": "org.slf4j.event.Level"
-        },
-        {
-          "name": "ERROR",
-          "type": "org.slf4j.event.Level"
+          "class": "org.apache.logging.log4j.Logger",
+          "fields": [
+            {
+              "name": "DEBUG",
+              "type": "org.slf4j.event.Level"
+            },
+            {
+              "name": "ERROR",
+              "type": "org.slf4j.event.Level"
+            }
+          ],
+          "methods": [
+            {
+              "name": "valueOf",
+              "return_type": "org.slf4j.event.Level",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "values",
+              "return_type": "org.slf4j.event.Level[]",
+              "parameters": []
+            }
+          ]
         }
-      ],
-      "methods": [
-        {
-          "name": "valueOf",
-          "return_type": "org.slf4j.event.Level",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "values",
-          "return_type": "org.slf4j.event.Level[]",
-          "parameters": []
-        }
-      ]
-    },
-    {
-      "class": "org.slf4j.Logger",
-      "fields": [],
-      "methods": [
-        {
-          "name": "atLevel",
-          "return_type": "org.slf4j.spi.LoggingEventBuilder",
-          "parameters": [
-            {
-              "type": "org.slf4j.event.Level",
-              "name": null
-            }
-          ]
-        },
-        {
-          "name": "debug",
-          "return_type": "void",
-          "parameters": [
-            {
-              "type": "java.lang.String",
-              "name": null
-            }
-          ]
-        },
       ]
     }
   ]
