@@ -1,0 +1,1493 @@
+{
+  "metadata": {
+    "group": "com.google.code.gson",
+    "artifact": "gson",
+    "ecosystem": "maven"
+  },
+  "versions": [
+    {
+      "version": "2.13.1",
+      "apis": [
+        {
+          "class": "com.google.gson.FieldAttributes",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getAnnotation",
+              "return_type": "java.lang.annotation.Annotation",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.FieldNamingPolicy",
+          "fields": [
+            {
+              "name": "LOWER_CASE_WITH_UNDERSCORES",
+              "type": "com.google.gson.FieldNamingPolicy"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "com.google.gson.FieldNamingStrategy",
+          "fields": [],
+          "methods": [
+            {
+              "name": "translateName",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.reflect.Field",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.Gson",
+          "fields": [],
+          "methods": [
+            {
+              "name": "fromJson",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "fromJson",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "fromJson",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "com.google.gson.stream.JsonReader",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "fromJson",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "fromJson",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "fromJson",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "fromJson",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getAdapter",
+              "return_type": "com.google.gson.TypeAdapter",
+              "parameters": [
+                {
+                  "type": "com.google.gson.reflect.TypeToken",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getAdapter",
+              "return_type": "com.google.gson.TypeAdapter",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getDelegateAdapter",
+              "return_type": "com.google.gson.TypeAdapter",
+              "parameters": [
+                {
+                  "type": "com.google.gson.TypeAdapterFactory",
+                  "name": null
+                },
+                {
+                  "type": "com.google.gson.reflect.TypeToken",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "newJsonWriter",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": [
+                {
+                  "type": "java.io.Writer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJson",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJson",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                },
+                {
+                  "type": "com.google.gson.stream.JsonWriter",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJson",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Appendable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJson",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJson",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Appendable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJson",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJson",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                },
+                {
+                  "type": "com.google.gson.stream.JsonWriter",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJson",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Appendable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJsonTree",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJsonTree",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.GsonBuilder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "addSerializationExclusionStrategy",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "com.google.gson.ExclusionStrategy",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "return_type": "com.google.gson.Gson",
+              "parameters": []
+            },
+            {
+              "name": "disableHtmlEscaping",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": []
+            },
+            {
+              "name": "enableComplexMapKeySerialization",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": []
+            },
+            {
+              "name": "excludeFieldsWithModifiers",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "int[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "excludeFieldsWithoutExposeAnnotation",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": []
+            },
+            {
+              "name": "registerTypeAdapter",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "registerTypeAdapterFactory",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "com.google.gson.TypeAdapterFactory",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "registerTypeHierarchyAdapter",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "serializeNulls",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": []
+            },
+            {
+              "name": "serializeSpecialFloatingPointValues",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": []
+            },
+            {
+              "name": "setDateFormat",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setExclusionStrategies",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "com.google.gson.ExclusionStrategy[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setFieldNamingPolicy",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "com.google.gson.FieldNamingPolicy",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setFieldNamingStrategy",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "com.google.gson.FieldNamingStrategy",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setLenient",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [],
+              "is_deprecated": true
+            },
+            {
+              "name": "setObjectToNumberStrategy",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": [
+                {
+                  "type": "com.google.gson.ToNumberStrategy",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setPrettyPrinting",
+              "return_type": "com.google.gson.GsonBuilder",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.JsonArray",
+          "fields": [],
+          "methods": [
+            {
+              "name": "add",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "add",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Number",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "add",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addAll",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "com.google.gson.JsonArray",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "get",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "iterator",
+              "return_type": "java.util.Iterator",
+              "parameters": []
+            },
+            {
+              "name": "remove",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "set",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                },
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "size",
+              "return_type": "int",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.JsonDeserializationContext",
+          "fields": [],
+          "methods": [
+            {
+              "name": "deserialize",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.JsonElement",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getAsBigDecimal",
+              "return_type": "java.math.BigDecimal",
+              "parameters": []
+            },
+            {
+              "name": "getAsBoolean",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "getAsByte",
+              "return_type": "byte",
+              "parameters": []
+            },
+            {
+              "name": "getAsDouble",
+              "return_type": "double",
+              "parameters": []
+            },
+            {
+              "name": "getAsFloat",
+              "return_type": "float",
+              "parameters": []
+            },
+            {
+              "name": "getAsInt",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "getAsJsonArray",
+              "return_type": "com.google.gson.JsonArray",
+              "parameters": []
+            },
+            {
+              "name": "getAsJsonObject",
+              "return_type": "com.google.gson.JsonObject",
+              "parameters": []
+            },
+            {
+              "name": "getAsJsonPrimitive",
+              "return_type": "com.google.gson.JsonPrimitive",
+              "parameters": []
+            },
+            {
+              "name": "getAsLong",
+              "return_type": "long",
+              "parameters": []
+            },
+            {
+              "name": "getAsNumber",
+              "return_type": "java.lang.Number",
+              "parameters": []
+            },
+            {
+              "name": "getAsString",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "isJsonArray",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "isJsonNull",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "isJsonObject",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "isJsonPrimitive",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.JsonNull",
+          "fields": [
+            {
+              "name": "INSTANCE",
+              "type": "com.google.gson.JsonNull"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "com.google.gson.JsonObject",
+          "fields": [],
+          "methods": [
+            {
+              "name": "add",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addProperty",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addProperty",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Character",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addProperty",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Number",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addProperty",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "deepCopy",
+              "return_type": "com.google.gson.JsonObject",
+              "parameters": []
+            },
+            {
+              "name": "entrySet",
+              "return_type": "java.util.Set",
+              "parameters": []
+            },
+            {
+              "name": "equals",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "get",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getAsJsonArray",
+              "return_type": "com.google.gson.JsonArray",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getAsJsonObject",
+              "return_type": "com.google.gson.JsonObject",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getAsJsonPrimitive",
+              "return_type": "com.google.gson.JsonPrimitive",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "has",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "hashCode",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "keySet",
+              "return_type": "java.util.Set",
+              "parameters": []
+            },
+            {
+              "name": "remove",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "size",
+              "return_type": "int",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.JsonParser",
+          "fields": [],
+          "methods": [
+            {
+              "name": "parse",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "com.google.gson.stream.JsonReader",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "parse",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "parse",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "parseReader",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "com.google.gson.stream.JsonReader",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "parseReader",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.io.Reader",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "parseString",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.JsonPrimitive",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getAsBigDecimal",
+              "return_type": "java.math.BigDecimal",
+              "parameters": []
+            },
+            {
+              "name": "getAsBoolean",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "getAsDouble",
+              "return_type": "double",
+              "parameters": []
+            },
+            {
+              "name": "getAsFloat",
+              "return_type": "float",
+              "parameters": []
+            },
+            {
+              "name": "getAsInt",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "getAsLong",
+              "return_type": "long",
+              "parameters": []
+            },
+            {
+              "name": "getAsNumber",
+              "return_type": "java.lang.Number",
+              "parameters": []
+            },
+            {
+              "name": "getAsString",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "isBoolean",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "isNumber",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "isString",
+              "return_type": "boolean",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.JsonSerializationContext",
+          "fields": [],
+          "methods": [
+            {
+              "name": "serialize",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "serialize",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.TypeAdapter",
+          "fields": [],
+          "methods": [
+            {
+              "name": "fromJsonTree",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "com.google.gson.JsonElement",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "read",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "com.google.gson.stream.JsonReader",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toJsonTree",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "write",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "com.google.gson.stream.JsonWriter",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.annotations.SerializedName",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.internal.Streams",
+          "fields": [],
+          "methods": [
+            {
+              "name": "parse",
+              "return_type": "com.google.gson.JsonElement",
+              "parameters": [
+                {
+                  "type": "com.google.gson.stream.JsonReader",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.internal.bind.util.ISO8601Utils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "format",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.util.Date",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "parse",
+              "return_type": "java.util.Date",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.text.ParsePosition",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.reflect.TypeToken",
+          "fields": [],
+          "methods": [
+            {
+              "name": "get",
+              "return_type": "com.google.gson.reflect.TypeToken",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "get",
+              "return_type": "com.google.gson.reflect.TypeToken",
+              "parameters": [
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getParameterized",
+              "return_type": "com.google.gson.reflect.TypeToken",
+              "parameters": [
+                {
+                  "type": "java.lang.reflect.Type",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.reflect.Type[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getRawType",
+              "return_type": "java.lang.Class",
+              "parameters": []
+            },
+            {
+              "name": "getType",
+              "return_type": "java.lang.reflect.Type",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.stream.JsonReader",
+          "fields": [],
+          "methods": [
+            {
+              "name": "beginArray",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "beginObject",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "close",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "endArray",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "endObject",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "hasNext",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "nextBoolean",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "nextDouble",
+              "return_type": "double",
+              "parameters": []
+            },
+            {
+              "name": "nextInt",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "nextLong",
+              "return_type": "long",
+              "parameters": []
+            },
+            {
+              "name": "nextName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "nextNull",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "nextString",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "peek",
+              "return_type": "com.google.gson.stream.JsonToken",
+              "parameters": []
+            },
+            {
+              "name": "setLenient",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "skipValue",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.stream.JsonToken",
+          "fields": [
+            {
+              "name": "BEGIN_ARRAY",
+              "type": "com.google.gson.stream.JsonToken"
+            },
+            {
+              "name": "BEGIN_OBJECT",
+              "type": "com.google.gson.stream.JsonToken"
+            },
+            {
+              "name": "BOOLEAN",
+              "type": "com.google.gson.stream.JsonToken"
+            },
+            {
+              "name": "END_ARRAY",
+              "type": "com.google.gson.stream.JsonToken"
+            },
+            {
+              "name": "END_DOCUMENT",
+              "type": "com.google.gson.stream.JsonToken"
+            },
+            {
+              "name": "END_OBJECT",
+              "type": "com.google.gson.stream.JsonToken"
+            },
+            {
+              "name": "NAME",
+              "type": "com.google.gson.stream.JsonToken"
+            },
+            {
+              "name": "NULL",
+              "type": "com.google.gson.stream.JsonToken"
+            },
+            {
+              "name": "NUMBER",
+              "type": "com.google.gson.stream.JsonToken"
+            },
+            {
+              "name": "STRING",
+              "type": "com.google.gson.stream.JsonToken"
+            }
+          ],
+          "methods": [
+            {
+              "name": "values",
+              "return_type": "com.google.gson.stream.JsonToken[]",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.google.gson.stream.JsonWriter",
+          "fields": [],
+          "methods": [
+            {
+              "name": "beginArray",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": []
+            },
+            {
+              "name": "beginObject",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": []
+            },
+            {
+              "name": "close",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "endArray",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": []
+            },
+            {
+              "name": "endObject",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": []
+            },
+            {
+              "name": "flush",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "getSerializeNulls",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "jsonValue",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "name",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "nullValue",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": []
+            },
+            {
+              "name": "setIndent",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setSerializeNulls",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "value",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": [
+                {
+                  "type": "double",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "value",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "value",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": [
+                {
+                  "type": "java.lang.Boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "value",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": [
+                {
+                  "type": "java.lang.Number",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "value",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "value",
+              "return_type": "com.google.gson.stream.JsonWriter",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
