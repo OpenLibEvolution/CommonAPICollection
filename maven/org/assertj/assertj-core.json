@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "group": "org.assertj",
+    "artifact": "assertj-core",
+    "ecosystem": "maven"
+  },
+  "versions": [
+    {
+      "version": "4.0.0-M1",
+      "apis": [
+        {
+          "class": "org.assertj.core.api.AbstractBooleanAssert",
+          "fields": [],
+          "methods": [
+            {
+              "name": "isEqualTo",
+              "return_type": "org.assertj.core.api.AbstractBooleanAssert",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "isFalse",
+              "return_type": "org.assertj.core.api.AbstractBooleanAssert",
+              "parameters": []
+            },
+            {
+              "name": "isTrue",
+              "return_type": "org.assertj.core.api.AbstractBooleanAssert",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.assertj.core.api.AbstractIntegerAssert",
+          "fields": [],
+          "methods": [
+            {
+              "name": "isEqualTo",
+              "return_type": "org.assertj.core.api.AbstractIntegerAssert",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.assertj.core.api.AbstractLongAssert",
+          "fields": [],
+          "methods": [
+            {
+              "name": "isEqualTo",
+              "return_type": "org.assertj.core.api.AbstractLongAssert",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.assertj.core.api.AbstractStringAssert",
+          "fields": [],
+          "methods": [
+            {
+              "name": "isEqualTo",
+              "return_type": "org.assertj.core.api.AbstractStringAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.assertj.core.api.AbstractThrowableAssert",
+          "fields": [],
+          "methods": [
+            {
+              "name": "hasMessage",
+              "return_type": "org.assertj.core.api.AbstractThrowableAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.assertj.core.api.Assertions",
+          "fields": [],
+          "methods": [
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.AbstractIntegerAssert",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.AbstractLongAssert",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.AbstractBooleanAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.Boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.AbstractComparableAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.Comparable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.IterableAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.Iterable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.AbstractLongAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.Long",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.ObjectAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.AbstractStringAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.AbstractThrowableAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.AbstractCollectionAssert",
+              "parameters": [
+                {
+                  "type": "java.util.Collection",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.ListAssert",
+              "parameters": [
+                {
+                  "type": "java.util.List",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.MapAssert",
+              "parameters": [
+                {
+                  "type": "java.util.Map",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.AbstractBooleanAssert",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThat",
+              "return_type": "org.assertj.core.api.ObjectArrayAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.Object[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThatThrownBy",
+              "return_type": "org.assertj.core.api.AbstractThrowableAssert",
+              "parameters": [
+                {
+                  "type": "org.assertj.core.api.ThrowableAssert$ThrowingCallable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "fail",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.assertj.core.api.ListAssert",
+          "fields": [],
+          "methods": [
+            {
+              "name": "isEqualTo",
+              "return_type": "org.assertj.core.api.ListAssert",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
