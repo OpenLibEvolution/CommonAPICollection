@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "group": "org.junit.jupiter",
+    "artifact": "junit-jupiter-api",
+    "ecosystem": "maven"
+  },
+  "versions": [
+    {
+      "version": "5.13.0-M3",
+      "apis": [
+        {
+          "class": "org.junit.jupiter.api.Assertions",
+          "fields": [],
+          "methods": [
+            {
+              "name": "assertEquals",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertEquals",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertEquals",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                },
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertEquals",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertEquals",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertFalse",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertFalse",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertNotEquals",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertNotNull",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertNotNull",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertNull",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertThrows",
+              "return_type": "java.lang.Throwable",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                },
+                {
+                  "type": "org.junit.jupiter.api.function.Executable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertTrue",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "assertTrue",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "fail",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            },
+            {
+              "name": "fail",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "fail",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.Assumptions",
+          "fields": [],
+          "methods": [
+            {
+              "name": "assumeTrue",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.DynamicTest",
+          "fields": [],
+          "methods": [
+            {
+              "name": "dynamicTest",
+              "return_type": "org.junit.jupiter.api.DynamicTest",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "org.junit.jupiter.api.function.Executable",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.TestInfo",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getDisplayName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getTestClass",
+              "return_type": "java.util.Optional",
+              "parameters": []
+            },
+            {
+              "name": "getTestMethod",
+              "return_type": "java.util.Optional",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.TestInstance$Lifecycle",
+          "fields": [
+            {
+              "name": "PER_CLASS",
+              "type": "org.junit.jupiter.api.TestInstance$Lifecycle"
+            },
+            {
+              "name": "PER_METHOD",
+              "type": "org.junit.jupiter.api.TestInstance$Lifecycle"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.junit.jupiter.api.extension.ConditionEvaluationResult",
+          "fields": [],
+          "methods": [
+            {
+              "name": "disabled",
+              "return_type": "org.junit.jupiter.api.extension.ConditionEvaluationResult",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "enabled",
+              "return_type": "org.junit.jupiter.api.extension.ConditionEvaluationResult",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.extension.ExtensionContext",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getConfigurationParameter",
+              "return_type": "java.util.Optional",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getDisplayName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getElement",
+              "return_type": "java.util.Optional",
+              "parameters": []
+            },
+            {
+              "name": "getExecutionException",
+              "return_type": "java.util.Optional",
+              "parameters": []
+            },
+            {
+              "name": "getParent",
+              "return_type": "java.util.Optional",
+              "parameters": []
+            },
+            {
+              "name": "getRequiredTestClass",
+              "return_type": "java.lang.Class",
+              "parameters": []
+            },
+            {
+              "name": "getRequiredTestInstance",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            },
+            {
+              "name": "getRequiredTestInstances",
+              "return_type": "org.junit.jupiter.api.extension.TestInstances",
+              "parameters": []
+            },
+            {
+              "name": "getRequiredTestMethod",
+              "return_type": "java.lang.reflect.Method",
+              "parameters": []
+            },
+            {
+              "name": "getRoot",
+              "return_type": "org.junit.jupiter.api.extension.ExtensionContext",
+              "parameters": []
+            },
+            {
+              "name": "getStore",
+              "return_type": "org.junit.jupiter.api.extension.ExtensionContext$Store",
+              "parameters": [
+                {
+                  "type": "org.junit.jupiter.api.extension.ExtensionContext$Namespace",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getTestClass",
+              "return_type": "java.util.Optional",
+              "parameters": []
+            },
+            {
+              "name": "getTestInstance",
+              "return_type": "java.util.Optional",
+              "parameters": []
+            },
+            {
+              "name": "getTestInstanceLifecycle",
+              "return_type": "java.util.Optional",
+              "parameters": []
+            },
+            {
+              "name": "getTestMethod",
+              "return_type": "java.util.Optional",
+              "parameters": []
+            },
+            {
+              "name": "getUniqueId",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.extension.ExtensionContext$Namespace",
+          "fields": [
+            {
+              "name": "GLOBAL",
+              "type": "org.junit.jupiter.api.extension.ExtensionContext$Namespace"
+            }
+          ],
+          "methods": [
+            {
+              "name": "create",
+              "return_type": "org.junit.jupiter.api.extension.ExtensionContext$Namespace",
+              "parameters": [
+                {
+                  "type": "java.lang.Object[]",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.extension.ExtensionContext$Store",
+          "fields": [],
+          "methods": [
+            {
+              "name": "get",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "get",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getOrComputeIfAbsent",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.util.function.Function",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getOrComputeIfAbsent",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.util.function.Function",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "put",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "remove",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "remove",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.extension.InvocationInterceptor$Invocation",
+          "fields": [],
+          "methods": [
+            {
+              "name": "proceed",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            },
+            {
+              "name": "skip",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.extension.ParameterContext",
+          "fields": [],
+          "methods": [
+            {
+              "name": "findAnnotation",
+              "return_type": "java.util.Optional",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getDeclaringExecutable",
+              "return_type": "java.lang.reflect.Executable",
+              "parameters": []
+            },
+            {
+              "name": "getIndex",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "getParameter",
+              "return_type": "java.lang.reflect.Parameter",
+              "parameters": []
+            },
+            {
+              "name": "isAnnotated",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.extension.ReflectiveInvocationContext",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getExecutable",
+              "return_type": "java.lang.reflect.Executable",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.junit.jupiter.api.extension.TestInstances",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getAllInstances",
+              "return_type": "java.util.List",
+              "parameters": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
