@@ -1,0 +1,867 @@
+{
+  "metadata": {
+    "group": "org.mockito",
+    "artifact": "mockito-all",
+    "ecosystem": "maven"
+  },
+  "versions": [
+    {
+      "version": "2.0.2-beta",
+      "apis": [
+        {
+          "class": "org.hamcrest.CoreMatchers",
+          "fields": [],
+          "methods": [
+            {
+              "name": "allOf",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "java.lang.Iterable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "equalTo",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "instanceOf",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "is",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "is",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "org.hamcrest.Matcher",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "not",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "org.hamcrest.Matcher",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "notNullValue",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": []
+            },
+            {
+              "name": "nullValue",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.hamcrest.Description",
+          "fields": [],
+          "methods": [
+            {
+              "name": "appendDescriptionOf",
+              "return_type": "org.hamcrest.Description",
+              "parameters": [
+                {
+                  "type": "org.hamcrest.SelfDescribing",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "appendList",
+              "return_type": "org.hamcrest.Description",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Iterable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "appendText",
+              "return_type": "org.hamcrest.Description",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "appendValue",
+              "return_type": "org.hamcrest.Description",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "appendValueList",
+              "return_type": "org.hamcrest.Description",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Iterable",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.hamcrest.Matcher",
+          "fields": [],
+          "methods": [
+            {
+              "name": "matches",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.hamcrest.StringDescription",
+          "fields": [],
+          "methods": [
+            {
+              "name": "asString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "org.hamcrest.SelfDescribing",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "org.hamcrest.SelfDescribing",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.hamcrest.core.Is",
+          "fields": [],
+          "methods": [
+            {
+              "name": "is",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "is",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "org.hamcrest.Matcher",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.hamcrest.core.IsEqual",
+          "fields": [],
+          "methods": [
+            {
+              "name": "equalTo",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.hamcrest.core.IsInstanceOf",
+          "fields": [],
+          "methods": [
+            {
+              "name": "instanceOf",
+              "return_type": "org.hamcrest.Matcher",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.ArgumentCaptor",
+          "fields": [],
+          "methods": [
+            {
+              "name": "capture",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            },
+            {
+              "name": "forClass",
+              "return_type": "org.mockito.ArgumentCaptor",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getAllValues",
+              "return_type": "java.util.List",
+              "parameters": []
+            },
+            {
+              "name": "getValue",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.InOrder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "verify",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "verify",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "org.mockito.verification.VerificationMode",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.Matchers",
+          "fields": [],
+          "methods": [
+            {
+              "name": "any",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            },
+            {
+              "name": "any",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "anyBoolean",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "anyInt",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "anyLong",
+              "return_type": "long",
+              "parameters": []
+            },
+            {
+              "name": "anyString",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "eq",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "same",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.MockSettings",
+          "fields": [],
+          "methods": [
+            {
+              "name": "defaultAnswer",
+              "return_type": "org.mockito.MockSettings",
+              "parameters": [
+                {
+                  "type": "org.mockito.stubbing.Answer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "extraInterfaces",
+              "return_type": "org.mockito.MockSettings",
+              "parameters": [
+                {
+                  "type": "java.lang.Class[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "name",
+              "return_type": "org.mockito.MockSettings",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "spiedInstance",
+              "return_type": "org.mockito.MockSettings",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.Mockito",
+          "fields": [],
+          "methods": [
+            {
+              "name": "atLeast",
+              "return_type": "org.mockito.verification.VerificationMode",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "atLeastOnce",
+              "return_type": "org.mockito.verification.VerificationMode",
+              "parameters": []
+            },
+            {
+              "name": "atMost",
+              "return_type": "org.mockito.verification.VerificationMode",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "doAnswer",
+              "return_type": "org.mockito.stubbing.Stubber",
+              "parameters": [
+                {
+                  "type": "org.mockito.stubbing.Answer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "doNothing",
+              "return_type": "org.mockito.stubbing.Stubber",
+              "parameters": []
+            },
+            {
+              "name": "doReturn",
+              "return_type": "org.mockito.stubbing.Stubber",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "doThrow",
+              "return_type": "org.mockito.stubbing.Stubber",
+              "parameters": [
+                {
+                  "type": "java.lang.Throwable",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "inOrder",
+              "return_type": "org.mockito.InOrder",
+              "parameters": [
+                {
+                  "type": "java.lang.Object[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "mock",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "mock",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "mock",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                },
+                {
+                  "type": "org.mockito.MockSettings",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "mock",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                },
+                {
+                  "type": "org.mockito.stubbing.Answer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "mockingDetails",
+              "return_type": "org.mockito.MockingDetails",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "never",
+              "return_type": "org.mockito.verification.VerificationMode",
+              "parameters": []
+            },
+            {
+              "name": "reset",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "spy",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "times",
+              "return_type": "org.mockito.verification.VerificationMode",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "verify",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "verify",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "org.mockito.verification.VerificationMode",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "verifyNoMoreInteractions",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "verifyZeroInteractions",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "when",
+              "return_type": "org.mockito.stubbing.OngoingStubbing",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "withSettings",
+              "return_type": "org.mockito.MockSettings",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.MockitoAnnotations",
+          "fields": [],
+          "methods": [
+            {
+              "name": "initMocks",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.invocation.InvocationOnMock",
+          "fields": [],
+          "methods": [
+            {
+              "name": "callRealMethod",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            },
+            {
+              "name": "getArguments",
+              "return_type": "java.lang.Object[]",
+              "parameters": []
+            },
+            {
+              "name": "getMethod",
+              "return_type": "java.lang.reflect.Method",
+              "parameters": []
+            },
+            {
+              "name": "getMock",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.stubbing.Answer",
+          "fields": [],
+          "methods": [
+            {
+              "name": "answer",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.mockito.invocation.InvocationOnMock",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.stubbing.OngoingStubbing",
+          "fields": [],
+          "methods": [
+            {
+              "name": "then",
+              "return_type": "org.mockito.stubbing.OngoingStubbing",
+              "parameters": [
+                {
+                  "type": "org.mockito.stubbing.Answer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "thenAnswer",
+              "return_type": "org.mockito.stubbing.OngoingStubbing",
+              "parameters": [
+                {
+                  "type": "org.mockito.stubbing.Answer",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "thenCallRealMethod",
+              "return_type": "org.mockito.stubbing.OngoingStubbing",
+              "parameters": []
+            },
+            {
+              "name": "thenReturn",
+              "return_type": "org.mockito.stubbing.OngoingStubbing",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "thenReturn",
+              "return_type": "org.mockito.stubbing.OngoingStubbing",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.Object[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "thenThrow",
+              "return_type": "org.mockito.stubbing.OngoingStubbing",
+              "parameters": [
+                {
+                  "type": "java.lang.Throwable[]",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.mockito.stubbing.Stubber",
+          "fields": [],
+          "methods": [
+            {
+              "name": "when",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.objenesis.Objenesis",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getInstantiatorOf",
+              "return_type": "org.objenesis.instantiator.ObjectInstantiator",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "newInstance",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.objenesis.instantiator.ObjectInstantiator",
+          "fields": [],
+          "methods": [
+            {
+              "name": "newInstance",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.objenesis.strategy.InstantiatorStrategy",
+          "fields": [],
+          "methods": [
+            {
+              "name": "newInstantiatorOf",
+              "return_type": "org.objenesis.instantiator.ObjectInstantiator",
+              "parameters": [
+                {
+                  "type": "java.lang.Class",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
