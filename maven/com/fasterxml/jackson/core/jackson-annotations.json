@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "group": "com.fasterxml.jackson.core",
+    "artifact": "jackson-annotations",
+    "ecosystem": "maven"
+  },
+  "versions": [
+    {
+      "version": "3.0-rc5",
+      "apis": [
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonAlias",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.String[]",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility",
+          "fields": [
+            {
+              "name": "ANY",
+              "type": "com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility"
+            },
+            {
+              "name": "DEFAULT",
+              "type": "com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility"
+            },
+            {
+              "name": "NONE",
+              "type": "com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility"
+            },
+            {
+              "name": "PUBLIC_ONLY",
+              "type": "com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonCreator",
+          "fields": [],
+          "methods": [
+            {
+              "name": "mode",
+              "return_type": "com.fasterxml.jackson.annotation.JsonCreator$Mode",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonCreator$Mode",
+          "fields": [
+            {
+              "name": "DISABLED",
+              "type": "com.fasterxml.jackson.annotation.JsonCreator$Mode"
+            },
+            {
+              "name": "PROPERTIES",
+              "type": "com.fasterxml.jackson.annotation.JsonCreator$Mode"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonFormat",
+          "fields": [],
+          "methods": [
+            {
+              "name": "pattern",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonFormat$Shape",
+          "fields": [
+            {
+              "name": "STRING",
+              "type": "com.fasterxml.jackson.annotation.JsonFormat$Shape"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonGetter",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonIdentityInfo",
+          "fields": [],
+          "methods": [
+            {
+              "name": "generator",
+              "return_type": "java.lang.Class",
+              "parameters": []
+            },
+            {
+              "name": "property",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonIdentityReference",
+          "fields": [],
+          "methods": [
+            {
+              "name": "alwaysAsId",
+              "return_type": "boolean",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonIgnore",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "boolean",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonIgnoreProperties",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.String[]",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonInclude$Include",
+          "fields": [
+            {
+              "name": "ALWAYS",
+              "type": "com.fasterxml.jackson.annotation.JsonInclude$Include"
+            },
+            {
+              "name": "NON_ABSENT",
+              "type": "com.fasterxml.jackson.annotation.JsonInclude$Include"
+            },
+            {
+              "name": "NON_DEFAULT",
+              "type": "com.fasterxml.jackson.annotation.JsonInclude$Include"
+            },
+            {
+              "name": "NON_EMPTY",
+              "type": "com.fasterxml.jackson.annotation.JsonInclude$Include"
+            },
+            {
+              "name": "NON_NULL",
+              "type": "com.fasterxml.jackson.annotation.JsonInclude$Include"
+            },
+            {
+              "name": "USE_DEFAULTS",
+              "type": "com.fasterxml.jackson.annotation.JsonInclude$Include"
+            }
+          ],
+          "methods": [
+            {
+              "name": "values",
+              "return_type": "com.fasterxml.jackson.annotation.JsonInclude$Include[]",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonInclude$Value",
+          "fields": [],
+          "methods": [
+            {
+              "name": "construct",
+              "return_type": "com.fasterxml.jackson.annotation.JsonInclude$Value",
+              "parameters": [
+                {
+                  "type": "com.fasterxml.jackson.annotation.JsonInclude$Include",
+                  "name": null
+                },
+                {
+                  "type": "com.fasterxml.jackson.annotation.JsonInclude$Include",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getValueInclusion",
+              "return_type": "com.fasterxml.jackson.annotation.JsonInclude$Include",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonProperty",
+          "fields": [],
+          "methods": [
+            {
+              "name": "access",
+              "return_type": "com.fasterxml.jackson.annotation.JsonProperty$Access",
+              "parameters": []
+            },
+            {
+              "name": "required",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "value",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonProperty$Access",
+          "fields": [
+            {
+              "name": "READ_ONLY",
+              "type": "com.fasterxml.jackson.annotation.JsonProperty$Access"
+            },
+            {
+              "name": "WRITE_ONLY",
+              "type": "com.fasterxml.jackson.annotation.JsonProperty$Access"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonPropertyDescription",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonPropertyOrder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.String[]",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonRootName",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonSetter",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonSubTypes",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "com.fasterxml.jackson.annotation.JsonSubTypes$Type[]",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonSubTypes$Type",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.Class",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonTypeInfo",
+          "fields": [],
+          "methods": [
+            {
+              "name": "include",
+              "return_type": "com.fasterxml.jackson.annotation.JsonTypeInfo$As",
+              "parameters": []
+            },
+            {
+              "name": "property",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "use",
+              "return_type": "com.fasterxml.jackson.annotation.JsonTypeInfo$Id",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonTypeInfo$As",
+          "fields": [
+            {
+              "name": "EXISTING_PROPERTY",
+              "type": "com.fasterxml.jackson.annotation.JsonTypeInfo$As"
+            },
+            {
+              "name": "PROPERTY",
+              "type": "com.fasterxml.jackson.annotation.JsonTypeInfo$As"
+            },
+            {
+              "name": "WRAPPER_ARRAY",
+              "type": "com.fasterxml.jackson.annotation.JsonTypeInfo$As"
+            },
+            {
+              "name": "WRAPPER_OBJECT",
+              "type": "com.fasterxml.jackson.annotation.JsonTypeInfo$As"
+            }
+          ],
+          "methods": [
+            {
+              "name": "values",
+              "return_type": "com.fasterxml.jackson.annotation.JsonTypeInfo$As[]",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonTypeInfo$Id",
+          "fields": [
+            {
+              "name": "CLASS",
+              "type": "com.fasterxml.jackson.annotation.JsonTypeInfo$Id"
+            },
+            {
+              "name": "CUSTOM",
+              "type": "com.fasterxml.jackson.annotation.JsonTypeInfo$Id"
+            },
+            {
+              "name": "MINIMAL_CLASS",
+              "type": "com.fasterxml.jackson.annotation.JsonTypeInfo$Id"
+            },
+            {
+              "name": "NAME",
+              "type": "com.fasterxml.jackson.annotation.JsonTypeInfo$Id"
+            },
+            {
+              "name": "NONE",
+              "type": "com.fasterxml.jackson.annotation.JsonTypeInfo$Id"
+            }
+          ],
+          "methods": [
+            {
+              "name": "getDefaultPropertyName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonTypeName",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonUnwrapped",
+          "fields": [],
+          "methods": [
+            {
+              "name": "enabled",
+              "return_type": "boolean",
+              "parameters": []
+            },
+            {
+              "name": "prefix",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "suffix",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonValue",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "boolean",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.JsonView",
+          "fields": [],
+          "methods": [
+            {
+              "name": "value",
+              "return_type": "java.lang.Class[]",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "com.fasterxml.jackson.annotation.PropertyAccessor",
+          "fields": [
+            {
+              "name": "ALL",
+              "type": "com.fasterxml.jackson.annotation.PropertyAccessor"
+            },
+            {
+              "name": "CREATOR",
+              "type": "com.fasterxml.jackson.annotation.PropertyAccessor"
+            },
+            {
+              "name": "FIELD",
+              "type": "com.fasterxml.jackson.annotation.PropertyAccessor"
+            },
+            {
+              "name": "GETTER",
+              "type": "com.fasterxml.jackson.annotation.PropertyAccessor"
+            },
+            {
+              "name": "IS_GETTER",
+              "type": "com.fasterxml.jackson.annotation.PropertyAccessor"
+            },
+            {
+              "name": "SETTER",
+              "type": "com.fasterxml.jackson.annotation.PropertyAccessor"
+            }
+          ],
+          "methods": []
+        }
+      ]
+    }
+  ]
+}
