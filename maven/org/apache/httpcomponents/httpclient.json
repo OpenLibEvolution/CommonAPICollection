@@ -1,0 +1,2722 @@
+{
+  "metadata": {
+    "group": "org.apache.httpcomponents",
+    "artifact": "httpclient",
+    "ecosystem": "maven"
+  },
+  "versions": [
+    {
+      "version": "4.5.14",
+      "apis": [
+        {
+          "class": "org.apache.http.auth.AuthScheme",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getSchemeName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.auth.AuthScope",
+          "fields": [
+            {
+              "name": "ANY",
+              "type": "org.apache.http.auth.AuthScope"
+            },
+            {
+              "name": "ANY_HOST",
+              "type": "java.lang.String"
+            },
+            {
+              "name": "ANY_REALM",
+              "type": "java.lang.String"
+            }
+          ],
+          "methods": [
+            {
+              "name": "getHost",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getPort",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "getRealm",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getScheme",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "match",
+              "return_type": "int",
+              "parameters": [
+                {
+                  "type": "org.apache.http.auth.AuthScope",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.auth.AuthState",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getAuthScheme",
+              "return_type": "org.apache.http.auth.AuthScheme",
+              "parameters": []
+            },
+            {
+              "name": "setAuthScheme",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.auth.AuthScheme",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "setCredentials",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.auth.Credentials",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "update",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.auth.AuthScheme",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.auth.Credentials",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.auth.Credentials",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getUserPrincipal",
+              "return_type": "java.security.Principal",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.AuthCache",
+          "fields": [],
+          "methods": [
+            {
+              "name": "put",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.auth.AuthScheme",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.CookieStore",
+          "fields": [],
+          "methods": [
+            {
+              "name": "addCookie",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.cookie.Cookie",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getCookies",
+              "return_type": "java.util.List",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.CredentialsProvider",
+          "fields": [],
+          "methods": [
+            {
+              "name": "clear",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "getCredentials",
+              "return_type": "org.apache.http.auth.Credentials",
+              "parameters": [
+                {
+                  "type": "org.apache.http.auth.AuthScope",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setCredentials",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.auth.AuthScope",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.auth.Credentials",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.HttpClient",
+          "fields": [],
+          "methods": [
+            {
+              "name": "execute",
+              "return_type": "org.apache.http.HttpResponse",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpRequest",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.client.ResponseHandler",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.client.ResponseHandler",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "org.apache.http.HttpResponse",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "org.apache.http.HttpResponse",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.methods.HttpUriRequest",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.methods.HttpUriRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.client.ResponseHandler",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.methods.HttpUriRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.client.ResponseHandler",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "org.apache.http.HttpResponse",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.methods.HttpUriRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getConnectionManager",
+              "return_type": "org.apache.http.conn.ClientConnectionManager",
+              "parameters": [],
+              "is_deprecated": true
+            },
+            {
+              "name": "getParams",
+              "return_type": "org.apache.http.params.HttpParams",
+              "parameters": [],
+              "is_deprecated": true
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.HttpResponseException",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getStatusCode",
+              "return_type": "int",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.ResponseHandler",
+          "fields": [],
+          "methods": [
+            {
+              "name": "handleResponse",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpResponse",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.config.RequestConfig",
+          "fields": [
+            {
+              "name": "DEFAULT",
+              "type": "org.apache.http.client.config.RequestConfig"
+            }
+          ],
+          "methods": [
+            {
+              "name": "copy",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.config.RequestConfig",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "custom",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": []
+            },
+            {
+              "name": "getConnectTimeout",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "getConnectionRequestTimeout",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "getSocketTimeout",
+              "return_type": "int",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.config.RequestConfig$Builder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "build",
+              "return_type": "org.apache.http.client.config.RequestConfig",
+              "parameters": []
+            },
+            {
+              "name": "setAuthenticationEnabled",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setCircularRedirectsAllowed",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setConnectTimeout",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setConnectionRequestTimeout",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setContentCompressionEnabled",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setCookieSpec",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setExpectContinueEnabled",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setLocalAddress",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "java.net.InetAddress",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setMaxRedirects",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setNormalizeUri",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setProxy",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setProxyPreferredAuthSchemes",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "java.util.Collection",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setRedirectsEnabled",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setRelativeRedirectsAllowed",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setSocketTimeout",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setStaleConnectionCheckEnabled",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "setTargetPreferredAuthSchemes",
+              "return_type": "org.apache.http.client.config.RequestConfig$Builder",
+              "parameters": [
+                {
+                  "type": "java.util.Collection",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.entity.EntityBuilder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "build",
+              "return_type": "org.apache.http.HttpEntity",
+              "parameters": []
+            },
+            {
+              "name": "create",
+              "return_type": "org.apache.http.client.entity.EntityBuilder",
+              "parameters": []
+            },
+            {
+              "name": "setContentType",
+              "return_type": "org.apache.http.client.entity.EntityBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.entity.ContentType",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.methods.Configurable",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getConfig",
+              "return_type": "org.apache.http.client.config.RequestConfig",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.methods.HttpEntityEnclosingRequestBase",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getEntity",
+              "return_type": "org.apache.http.HttpEntity",
+              "parameters": []
+            },
+            {
+              "name": "setEntity",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpEntity",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.methods.HttpRequestBase",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getConfig",
+              "return_type": "org.apache.http.client.config.RequestConfig",
+              "parameters": []
+            },
+            {
+              "name": "getMethod",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getRequestLine",
+              "return_type": "org.apache.http.RequestLine",
+              "parameters": []
+            },
+            {
+              "name": "getURI",
+              "return_type": "java.net.URI",
+              "parameters": []
+            },
+            {
+              "name": "releaseConnection",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "setConfig",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.config.RequestConfig",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setProtocolVersion",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.ProtocolVersion",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setURI",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.net.URI",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.methods.HttpRequestWrapper",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getOriginal",
+              "return_type": "org.apache.http.HttpRequest",
+              "parameters": []
+            },
+            {
+              "name": "getURI",
+              "return_type": "java.net.URI",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.methods.HttpUriRequest",
+          "fields": [],
+          "methods": [
+            {
+              "name": "abort",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "getMethod",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getURI",
+              "return_type": "java.net.URI",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.methods.RequestBuilder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "addHeader",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addHeader",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.Header",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addParameter",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "build",
+              "return_type": "org.apache.http.client.methods.HttpUriRequest",
+              "parameters": []
+            },
+            {
+              "name": "create",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "delete",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": []
+            },
+            {
+              "name": "get",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": []
+            },
+            {
+              "name": "get",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "post",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": []
+            },
+            {
+              "name": "post",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "put",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": []
+            },
+            {
+              "name": "put",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setCharset",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setConfig",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.config.RequestConfig",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setEntity",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpEntity",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setHeader",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setUri",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setUri",
+              "return_type": "org.apache.http.client.methods.RequestBuilder",
+              "parameters": [
+                {
+                  "type": "java.net.URI",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.protocol.HttpClientContext",
+          "fields": [],
+          "methods": [
+            {
+              "name": "adapt",
+              "return_type": "org.apache.http.client.protocol.HttpClientContext",
+              "parameters": [
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "create",
+              "return_type": "org.apache.http.client.protocol.HttpClientContext",
+              "parameters": []
+            },
+            {
+              "name": "getAuthCache",
+              "return_type": "org.apache.http.client.AuthCache",
+              "parameters": []
+            },
+            {
+              "name": "getCookieStore",
+              "return_type": "org.apache.http.client.CookieStore",
+              "parameters": []
+            },
+            {
+              "name": "getCredentialsProvider",
+              "return_type": "org.apache.http.client.CredentialsProvider",
+              "parameters": []
+            },
+            {
+              "name": "getRedirectLocations",
+              "return_type": "java.util.List",
+              "parameters": []
+            },
+            {
+              "name": "getUserToken",
+              "return_type": "java.lang.Object",
+              "parameters": []
+            },
+            {
+              "name": "setAuthCache",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.AuthCache",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setAuthSchemeRegistry",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.config.Lookup",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setCookieStore",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.CookieStore",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setCredentialsProvider",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.CredentialsProvider",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setRequestConfig",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.config.RequestConfig",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setUserToken",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.Object",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.utils.DateUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "formatDate",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.util.Date",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "parseDate",
+              "return_type": "java.util.Date",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.utils.HttpClientUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpResponse",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.HttpClient",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "closeQuietly",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.methods.CloseableHttpResponse",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.utils.URIBuilder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "addParameter",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addParameters",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "java.util.List",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "build",
+              "return_type": "java.net.URI",
+              "parameters": []
+            },
+            {
+              "name": "getPath",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getQueryParams",
+              "return_type": "java.util.List",
+              "parameters": []
+            },
+            {
+              "name": "setFragment",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setHost",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setParameter",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setParameters",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "java.util.List",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setPath",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setPort",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setScheme",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setUserInfo",
+              "return_type": "org.apache.http.client.utils.URIBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "toString",
+              "return_type": "java.lang.String",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.utils.URIUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "extractHost",
+              "return_type": "org.apache.http.HttpHost",
+              "parameters": [
+                {
+                  "type": "java.net.URI",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.client.utils.URLEncodedUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "format",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.Iterable",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "format",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.util.List",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "parse",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "parse",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.net.URI",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "parse",
+              "return_type": "java.util.List",
+              "parameters": [
+                {
+                  "type": "java.net.URI",
+                  "name": null
+                },
+                {
+                  "type": "java.nio.charset.Charset",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.conn.ClientConnectionManager",
+          "fields": [],
+          "methods": [
+            {
+              "name": "closeExpiredConnections",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "closeIdleConnections",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                },
+                {
+                  "type": "java.util.concurrent.TimeUnit",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getSchemeRegistry",
+              "return_type": "org.apache.http.conn.scheme.SchemeRegistry",
+              "parameters": []
+            },
+            {
+              "name": "shutdown",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.conn.HttpClientConnectionManager",
+          "fields": [],
+          "methods": [
+            {
+              "name": "closeExpiredConnections",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "closeIdleConnections",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                },
+                {
+                  "type": "java.util.concurrent.TimeUnit",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "shutdown",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.conn.params.ConnManagerParams",
+          "fields": [],
+          "methods": [
+            {
+              "name": "setMaxConnectionsPerRoute",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.params.HttpParams",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.conn.params.ConnPerRoute",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setMaxTotalConnections",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.params.HttpParams",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setTimeout",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.params.HttpParams",
+                  "name": null
+                },
+                {
+                  "type": "long",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.conn.params.ConnRouteParams",
+          "fields": [],
+          "methods": [
+            {
+              "name": "setDefaultProxy",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.params.HttpParams",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                }
+              ]
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.conn.routing.HttpRoute",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getTargetHost",
+              "return_type": "org.apache.http.HttpHost",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.conn.scheme.PlainSocketFactory",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getSocketFactory",
+              "return_type": "org.apache.http.conn.scheme.PlainSocketFactory",
+              "parameters": []
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.conn.scheme.SchemeRegistry",
+          "fields": [],
+          "methods": [
+            {
+              "name": "register",
+              "return_type": "org.apache.http.conn.scheme.Scheme",
+              "parameters": [
+                {
+                  "type": "org.apache.http.conn.scheme.Scheme",
+                  "name": null
+                }
+              ]
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.conn.socket.PlainConnectionSocketFactory",
+          "fields": [
+            {
+              "name": "INSTANCE",
+              "type": "org.apache.http.conn.socket.PlainConnectionSocketFactory"
+            }
+          ],
+          "methods": [
+            {
+              "name": "getSocketFactory",
+              "return_type": "org.apache.http.conn.socket.PlainConnectionSocketFactory",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.conn.ssl.NoopHostnameVerifier",
+          "fields": [
+            {
+              "name": "INSTANCE",
+              "type": "org.apache.http.conn.ssl.NoopHostnameVerifier"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.http.conn.ssl.SSLConnectionSocketFactory",
+          "fields": [
+            {
+              "name": "ALLOW_ALL_HOSTNAME_VERIFIER",
+              "type": "org.apache.http.conn.ssl.X509HostnameVerifier",
+              "is_deprecated": true
+            },
+            {
+              "name": "BROWSER_COMPATIBLE_HOSTNAME_VERIFIER",
+              "type": "org.apache.http.conn.ssl.X509HostnameVerifier",
+              "is_deprecated": true
+            }
+          ],
+          "methods": [
+            {
+              "name": "connectSocket",
+              "return_type": "java.net.Socket",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                },
+                {
+                  "type": "java.net.Socket",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "java.net.InetSocketAddress",
+                  "name": null
+                },
+                {
+                  "type": "java.net.InetSocketAddress",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getDefaultHostnameVerifier",
+              "return_type": "javax.net.ssl.HostnameVerifier",
+              "parameters": []
+            },
+            {
+              "name": "getSocketFactory",
+              "return_type": "org.apache.http.conn.ssl.SSLConnectionSocketFactory",
+              "parameters": []
+            },
+            {
+              "name": "getSystemSocketFactory",
+              "return_type": "org.apache.http.conn.ssl.SSLConnectionSocketFactory",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.conn.ssl.SSLContextBuilder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "build",
+              "return_type": "javax.net.ssl.SSLContext",
+              "parameters": []
+            },
+            {
+              "name": "loadKeyMaterial",
+              "return_type": "org.apache.http.conn.ssl.SSLContextBuilder",
+              "parameters": [
+                {
+                  "type": "java.security.KeyStore",
+                  "name": null
+                },
+                {
+                  "type": "char[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "loadTrustMaterial",
+              "return_type": "org.apache.http.conn.ssl.SSLContextBuilder",
+              "parameters": [
+                {
+                  "type": "java.security.KeyStore",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.conn.ssl.TrustStrategy",
+                  "name": null
+                }
+              ]
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.conn.ssl.SSLContexts",
+          "fields": [],
+          "methods": [
+            {
+              "name": "createDefault",
+              "return_type": "javax.net.ssl.SSLContext",
+              "parameters": []
+            },
+            {
+              "name": "custom",
+              "return_type": "org.apache.http.conn.ssl.SSLContextBuilder",
+              "parameters": []
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.conn.ssl.SSLSocketFactory",
+          "fields": [
+            {
+              "name": "ALLOW_ALL_HOSTNAME_VERIFIER",
+              "type": "org.apache.http.conn.ssl.X509HostnameVerifier"
+            },
+            {
+              "name": "BROWSER_COMPATIBLE_HOSTNAME_VERIFIER",
+              "type": "org.apache.http.conn.ssl.X509HostnameVerifier"
+            },
+            {
+              "name": "STRICT_HOSTNAME_VERIFIER",
+              "type": "org.apache.http.conn.ssl.X509HostnameVerifier"
+            }
+          ],
+          "methods": [
+            {
+              "name": "getSocketFactory",
+              "return_type": "org.apache.http.conn.ssl.SSLSocketFactory",
+              "parameters": []
+            },
+            {
+              "name": "setHostnameVerifier",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.conn.ssl.X509HostnameVerifier",
+                  "name": null
+                }
+              ]
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.conn.ssl.X509HostnameVerifier",
+          "fields": [],
+          "methods": [
+            {
+              "name": "verify",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "javax.net.ssl.SSLSocket",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.conn.util.PublicSuffixMatcherLoader",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getDefault",
+              "return_type": "org.apache.http.conn.util.PublicSuffixMatcher",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.cookie.Cookie",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getDomain",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getExpiryDate",
+              "return_type": "java.util.Date",
+              "parameters": []
+            },
+            {
+              "name": "getName",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getPath",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getValue",
+              "return_type": "java.lang.String",
+              "parameters": []
+            },
+            {
+              "name": "getVersion",
+              "return_type": "int",
+              "parameters": []
+            },
+            {
+              "name": "isSecure",
+              "return_type": "boolean",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.client.AbstractHttpClient",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getConnectionManager",
+              "return_type": "org.apache.http.conn.ClientConnectionManager",
+              "parameters": []
+            },
+            {
+              "name": "getCredentialsProvider",
+              "return_type": "org.apache.http.client.CredentialsProvider",
+              "parameters": []
+            },
+            {
+              "name": "getParams",
+              "return_type": "org.apache.http.params.HttpParams",
+              "parameters": []
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.impl.client.BasicCredentialsProvider",
+          "fields": [],
+          "methods": [
+            {
+              "name": "setCredentials",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.auth.AuthScope",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.auth.Credentials",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.client.BasicResponseHandler",
+          "fields": [],
+          "methods": [
+            {
+              "name": "handleResponse",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpResponse",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.client.CloseableHttpClient",
+          "fields": [],
+          "methods": [
+            {
+              "name": "execute",
+              "return_type": "org.apache.http.client.methods.CloseableHttpResponse",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpRequest",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.client.ResponseHandler",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.client.ResponseHandler",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "org.apache.http.client.methods.CloseableHttpResponse",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "org.apache.http.client.methods.CloseableHttpResponse",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.methods.HttpUriRequest",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.methods.HttpUriRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.client.ResponseHandler",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "java.lang.Object",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.methods.HttpUriRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.client.ResponseHandler",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "execute",
+              "return_type": "org.apache.http.client.methods.CloseableHttpResponse",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.methods.HttpUriRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy",
+          "fields": [
+            {
+              "name": "INSTANCE",
+              "type": "org.apache.http.impl.client.DefaultConnectionKeepAliveStrategy"
+            }
+          ],
+          "methods": [
+            {
+              "name": "getKeepAliveDuration",
+              "return_type": "long",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpResponse",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.client.DefaultHttpRequestRetryHandler",
+          "fields": [],
+          "methods": [
+            {
+              "name": "retryRequest",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.io.IOException",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.client.DefaultRedirectStrategy",
+          "fields": [],
+          "methods": [
+            {
+              "name": "isRedirected",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpRequest",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.HttpResponse",
+                  "name": null
+                },
+                {
+                  "type": "org.apache.http.protocol.HttpContext",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.client.HttpClientBuilder",
+          "fields": [],
+          "methods": [
+            {
+              "name": "addInterceptorFirst",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpRequestInterceptor",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addInterceptorFirst",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpResponseInterceptor",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addInterceptorLast",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpRequestInterceptor",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "addInterceptorLast",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpResponseInterceptor",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "build",
+              "return_type": "org.apache.http.impl.client.CloseableHttpClient",
+              "parameters": []
+            },
+            {
+              "name": "create",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": []
+            },
+            {
+              "name": "disableAutomaticRetries",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": []
+            },
+            {
+              "name": "disableContentCompression",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": []
+            },
+            {
+              "name": "disableCookieManagement",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": []
+            },
+            {
+              "name": "disableRedirectHandling",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": []
+            },
+            {
+              "name": "evictExpiredConnections",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": []
+            },
+            {
+              "name": "evictIdleConnections",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                },
+                {
+                  "type": "java.util.concurrent.TimeUnit",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setConnectionManager",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.conn.HttpClientConnectionManager",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setConnectionManagerShared",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setConnectionReuseStrategy",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.ConnectionReuseStrategy",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setConnectionTimeToLive",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                },
+                {
+                  "type": "java.util.concurrent.TimeUnit",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultAuthSchemeRegistry",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.config.Lookup",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultConnectionConfig",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.config.ConnectionConfig",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultCookieSpecRegistry",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.config.Lookup",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultCookieStore",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.CookieStore",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultCredentialsProvider",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.CredentialsProvider",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultHeaders",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "java.util.Collection",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultRequestConfig",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.config.RequestConfig",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultSocketConfig",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.config.SocketConfig",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setHostnameVerifier",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.conn.ssl.X509HostnameVerifier",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "setKeepAliveStrategy",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.conn.ConnectionKeepAliveStrategy",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setMaxConnPerRoute",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setMaxConnTotal",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setProxy",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.HttpHost",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setProxyAuthenticationStrategy",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.AuthenticationStrategy",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setRedirectStrategy",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.RedirectStrategy",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setRequestExecutor",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.protocol.HttpRequestExecutor",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setRetryHandler",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.HttpRequestRetryHandler",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setRoutePlanner",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.conn.routing.HttpRoutePlanner",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setSSLContext",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "javax.net.ssl.SSLContext",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setSSLHostnameVerifier",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "javax.net.ssl.HostnameVerifier",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setSSLSocketFactory",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.conn.socket.LayeredConnectionSocketFactory",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setServiceUnavailableRetryStrategy",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "org.apache.http.client.ServiceUnavailableRetryStrategy",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setSslcontext",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "javax.net.ssl.SSLContext",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "setUserAgent",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "useSystemProperties",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.client.HttpClients",
+          "fields": [],
+          "methods": [
+            {
+              "name": "createDefault",
+              "return_type": "org.apache.http.impl.client.CloseableHttpClient",
+              "parameters": []
+            },
+            {
+              "name": "createSystem",
+              "return_type": "org.apache.http.impl.client.CloseableHttpClient",
+              "parameters": []
+            },
+            {
+              "name": "custom",
+              "return_type": "org.apache.http.impl.client.HttpClientBuilder",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.client.RequestWrapper",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getOriginal",
+              "return_type": "org.apache.http.HttpRequest",
+              "parameters": []
+            },
+            {
+              "name": "setURI",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.net.URI",
+                  "name": null
+                }
+              ]
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.impl.conn.DefaultSchemePortResolver",
+          "fields": [
+            {
+              "name": "INSTANCE",
+              "type": "org.apache.http.impl.conn.DefaultSchemePortResolver"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.http.impl.conn.PoolingClientConnectionManager",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getSchemeRegistry",
+              "return_type": "org.apache.http.conn.scheme.SchemeRegistry",
+              "parameters": []
+            },
+            {
+              "name": "setDefaultMaxPerRoute",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setMaxTotal",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.impl.conn.PoolingHttpClientConnectionManager",
+          "fields": [],
+          "methods": [
+            {
+              "name": "close",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "closeExpiredConnections",
+              "return_type": "void",
+              "parameters": []
+            },
+            {
+              "name": "closeIdleConnections",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "long",
+                  "name": null
+                },
+                {
+                  "type": "java.util.concurrent.TimeUnit",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getTotalStats",
+              "return_type": "org.apache.http.pool.PoolStats",
+              "parameters": []
+            },
+            {
+              "name": "setDefaultConnectionConfig",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.config.ConnectionConfig",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultMaxPerRoute",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDefaultSocketConfig",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.config.SocketConfig",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setMaxPerRoute",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "org.apache.http.conn.routing.HttpRoute",
+                  "name": null
+                },
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setMaxTotal",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setValidateAfterInactivity",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "shutdown",
+              "return_type": "void",
+              "parameters": []
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.conn.SchemeRegistryFactory",
+          "fields": [],
+          "methods": [
+            {
+              "name": "createDefault",
+              "return_type": "org.apache.http.conn.scheme.SchemeRegistry",
+              "parameters": []
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.impl.conn.SystemDefaultDnsResolver",
+          "fields": [
+            {
+              "name": "INSTANCE",
+              "type": "org.apache.http.impl.conn.SystemDefaultDnsResolver"
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager",
+          "fields": [],
+          "methods": [
+            {
+              "name": "setDefaultMaxPerRoute",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setMaxTotal",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "int",
+                  "name": null
+                }
+              ]
+            }
+          ],
+          "is_deprecated": true
+        },
+        {
+          "class": "org.apache.http.impl.cookie.BasicClientCookie",
+          "fields": [],
+          "methods": [
+            {
+              "name": "setAttribute",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setDomain",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setExpiryDate",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.util.Date",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setPath",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "setSecure",
+              "return_type": "void",
+              "parameters": [
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.http.impl.cookie.DateUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "parseDate",
+              "return_type": "java.util.Date",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            }
+          ],
+          "is_deprecated": true
+        }
+      ]
+    }
+  ]
+}
