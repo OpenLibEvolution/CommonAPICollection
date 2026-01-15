@@ -1,0 +1,516 @@
+{
+  "metadata": {
+    "group": "commons-codec",
+    "artifact": "commons-codec",
+    "ecosystem": "maven"
+  },
+  "versions": [
+    {
+      "version": "1.20.0",
+      "apis": [
+        {
+          "class": "org.apache.commons.codec.Charsets",
+          "fields": [
+            {
+              "name": "UTF_8",
+              "type": "java.nio.charset.Charset",
+              "is_deprecated": true
+            }
+          ],
+          "methods": []
+        },
+        {
+          "class": "org.apache.commons.codec.binary.Base64",
+          "fields": [],
+          "methods": [
+            {
+              "name": "decodeBase64",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "decodeBase64",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeBase64",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeBase64",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeBase64String",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeBase64URLSafe",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeBase64URLSafeString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "isBase64",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "isBase64",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.codec.binary.Hex",
+          "fields": [],
+          "methods": [
+            {
+              "name": "decodeHex",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "decodeHex",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "char[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encode",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeHex",
+              "return_type": "char[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeHex",
+              "return_type": "char[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeHexString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeHexString",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                },
+                {
+                  "type": "boolean",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.codec.binary.StringUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "equals",
+              "return_type": "boolean",
+              "parameters": [
+                {
+                  "type": "java.lang.CharSequence",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.CharSequence",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getBytesUtf8",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "newStringUtf8",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.codec.digest.DigestUtils",
+          "fields": [],
+          "methods": [
+            {
+              "name": "getDigest",
+              "return_type": "java.security.MessageDigest",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "getMd5Digest",
+              "return_type": "java.security.MessageDigest",
+              "parameters": []
+            },
+            {
+              "name": "md5",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "md5",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "md5Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "md5Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "md5Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha1",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha1",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha1Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha1Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha1Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha256",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha256",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha256Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha256Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha256Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha512Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "sha512Hex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "shaHex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.io.InputStream",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            },
+            {
+              "name": "shaHex",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ],
+              "is_deprecated": true
+            }
+          ]
+        },
+        {
+          "class": "org.apache.commons.codec.net.URLCodec",
+          "fields": [],
+          "methods": [
+            {
+              "name": "decodeUrl",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encode",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encode",
+              "return_type": "java.lang.String",
+              "parameters": [
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                },
+                {
+                  "type": "java.lang.String",
+                  "name": null
+                }
+              ]
+            },
+            {
+              "name": "encodeUrl",
+              "return_type": "byte[]",
+              "parameters": [
+                {
+                  "type": "java.util.BitSet",
+                  "name": null
+                },
+                {
+                  "type": "byte[]",
+                  "name": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
